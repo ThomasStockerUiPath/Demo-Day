@@ -39,10 +39,10 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "fff86768-d27a-4391-8eab-832733ec487d",
-        "fileName": "TestCase.xaml"
+        "fileName": "UiBank Testing\\TestCase.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "isTemplate": false,

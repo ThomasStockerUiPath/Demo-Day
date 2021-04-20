@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/",
+  "defaultProject": {
+    "id": "b495da87-73ad-4ba5-7af0-0b426b8c657f",
+    "name": "ASQ Demo",
+    "key": "ASQ"
+  }
 }
