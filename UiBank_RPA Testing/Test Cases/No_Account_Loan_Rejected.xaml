@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="No_Account_Credible" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="862,1461" sap2010:WorkflowViewState.IdRef="No_Account_Credible_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="No_Account_Credible" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1129,1043" sap2010:WorkflowViewState.IdRef="No_Account_Credible_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="31">
+    <scg:List x:TypeArguments="x:String" Capacity="62">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -32,6 +32,7 @@
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>UiPath.Testing.Enums</x:String>
       <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>System.ComponentModel</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -71,7 +72,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="No_Account_Credible" sap:VirtualizedContainerService.HintSize="618,1391" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="No_Account_Credible" sap:VirtualizedContainerService.HintSize="618,1013" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="loand_granted" />
       <Variable x:TypeArguments="x:String" Name="givenName" />
@@ -144,7 +145,7 @@
             <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="email" />
           </InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="pathToAdminApp">
-            <Literal x:TypeArguments="x:String">C:\Users\Thomas Stocker\Documents\UiPath\Demo-Day\Demo Apps\UiBank Admin\UiBankAdmin.exe</Literal>
+            <Literal x:TypeArguments="x:String">C:\Users\ts-admin\Documents\GitHub\Demo-Day\Demo Apps\UiBank Admin\UiBankAdmin.exe</Literal>
           </InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
@@ -168,30 +169,6 @@
           </ui:Target>
         </ui:CloseApplication.Target>
       </ui:CloseApplication>
-    </Sequence>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,338" sap2010:WorkflowViewState.IdRef="Sequence_6">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="givenName" />
-        <Variable x:TypeArguments="x:String" Name="lastName" />
-        <Variable x:TypeArguments="x:String" Name="username" />
-        <Variable x:TypeArguments="x:String" Name="email" />
-      </Sequence.Variables>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <utat:GivenName DisplayName="Given Name" GivenNameResult="[givenName]" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="GivenName_2" />
-      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="LastName_2" LastNameResult="[lastName]" />
-      <utat:RandomString Case="LowerCase" DisplayName="username" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="RandomString_2" Length="10" Output="[username]" />
-      <Assign DisplayName="email" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[givenName &amp; "@" &amp; lastName &amp; ".com"]</InArgument>
-        </Assign.Value>
-      </Assign>
     </Sequence>
   </Sequence>
 </Activity>
