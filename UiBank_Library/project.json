@@ -33,7 +33,8 @@
       "includeOriginalXaml": false,
       "privateWorkflows": [
         "UiBank/Loan Application/Apply for Loan - full flow.xaml",
-        "UiBank/Loan Application/Test Apply for Loan.xaml"
+        "UiBank/Loan Application/Test Apply for Loan.xaml",
+        "UiBank/UiBank - Main Page.xaml"
       ]
     },
     "processOptions": {
