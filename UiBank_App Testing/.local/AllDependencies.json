@@ -14,6 +14,18 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
+      "ClosedXML/0.87.1": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.5.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/ClosedXML.dll": {}
+        }
+      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -25,6 +37,121 @@
         },
         "runtime": {
           "lib/net45/CsvHelper.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "Google.Apis/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.43.0",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.PlatformServices.dll": {},
+          "lib/net45/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Core": "1.43.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/net45/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Calendar.v3/1.43.0.1872": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Calendar.v3.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Gmail.v1/1.43.0.1859": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Gmail.v1.dll": {}
+        }
+      },
+      "Google.Apis.PeopleService.v1/1.43.0.1876": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.PeopleService.v1.dll": {}
+        }
+      },
+      "MailKit/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "MimeKit": "2.10.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/_._": {}
+        },
+        "runtime": {
+          "lib/net46/MailKit.dll": {}
         }
       },
       "Microsoft.AspNet.SignalR.Client/2.4.0": {
@@ -180,6 +307,16 @@
           "lib/net45/_._": {}
         }
       },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/_._": {}
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {},
+          "lib/40/Microsoft.Exchange.WebServices.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -238,6 +375,20 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.FileSystemGlobbing/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
       "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -289,6 +440,28 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Microsoft.Identity.Client/4.14.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Identity.Client.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -306,6 +479,15 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.OLE.Interop/16.7.30328.74": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
         }
       },
       "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
@@ -326,6 +508,27 @@
           "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
         }
       },
+      "MimeKit/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.8",
+          "System.Buffers": "4.5.1",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Net.Http",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net46/_._": {}
+        },
+        "runtime": {
+          "lib/net46/MimeKit.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -333,6 +536,30 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NPOI/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpZipLib": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/NPOI.OOXML.dll": {},
+          "lib/net45/NPOI.OpenXml4Net.dll": {},
+          "lib/net45/NPOI.OpenXmlFormats.dll": {},
+          "lib/net45/NPOI.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.8": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
       "RestSharp/106.11.7": {
@@ -379,6 +606,18 @@
         },
         "runtime": {
           "lib/net461/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data.DataSetExtensions"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
         }
       },
       "System.IO.Abstractions/3.0.10": {
@@ -557,6 +796,32 @@
           "lib/net461/System.ValueTuple.dll": {}
         }
       },
+      "UiBank_Library/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.Excel.Activities": "2.10.3-preview",
+          "UiPath.Mail.Activities": "1.10.3-preview",
+          "UiPath.System.Activities": "21.4.0-preview",
+          "UiPath.UIAutomation.Activities": "21.4.1-preview"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/UiBank_Library.dll": {},
+          "lib/net45/UiBank_Library_Expressions_13427635.dll": {},
+          "lib/net45/UiBank_Library_Expressions_23288440.dll": {},
+          "lib/net45/UiBank_Library_Expressions_27541955.dll": {},
+          "lib/net45/UiBank_Library_Expressions_63386889.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "UiPath/21.4.23.2412": {
         "type": "package",
         "compile": {
@@ -567,6 +832,255 @@
         },
         "build": {
           "build/_._": {}
+        }
+      },
+      "UiPath.Excel.Activities/2.10.3-preview": {
+        "type": "package",
+        "dependencies": {
+          "ClosedXML": "0.87.1",
+          "CsvHelper": "15.0.5",
+          "DocumentFormat.OpenXml": "2.5.0",
+          "Microsoft.VisualStudio.OLE.Interop": "16.7.30328.74",
+          "NPOI": "2.4.1",
+          "SharpZipLib": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Activities",
+          "System.Activities.Presentation"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Excel.Activities.Design.dll": {},
+          "lib/net461/UiPath.Excel.Activities.Package.dll": {},
+          "lib/net461/UiPath.Excel.Activities.dll": {},
+          "lib/net461/UiPath.Excel.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.Mail.Activities/1.10.3-preview": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Calendar.v3": "1.43.0.1872",
+          "Google.Apis.Gmail.v1": "1.43.0.1859",
+          "Google.Apis.PeopleService.v1": "1.43.0.1876",
+          "MailKit": "2.10.0",
+          "Microsoft.Exchange.WebServices": "2.2.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "5.0.0",
+          "Microsoft.Identity.Client": "4.14.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Mail.Activities.Design.dll": {},
+          "lib/net461/UiPath.Mail.Activities.Package.dll": {},
+          "lib/net461/UiPath.Mail.Activities.dll": {},
+          "lib/net461/UiPath.Mail.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
+          }
         }
       },
       "UiPath.OCR.Activities/3.0.0": {
@@ -1233,6 +1747,18 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
+      "ClosedXML/0.87.1": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.5.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/ClosedXML.dll": {}
+        }
+      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -1244,6 +1770,121 @@
         },
         "runtime": {
           "lib/net45/CsvHelper.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "Google.Apis/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.43.0",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.PlatformServices.dll": {},
+          "lib/net45/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Core": "1.43.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/net45/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Calendar.v3/1.43.0.1872": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Calendar.v3.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.43.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Gmail.v1/1.43.0.1859": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Gmail.v1.dll": {}
+        }
+      },
+      "Google.Apis.PeopleService.v1/1.43.0.1876": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.43.0",
+          "Google.Apis.Auth": "1.43.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.PeopleService.v1.dll": {}
+        }
+      },
+      "MailKit/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "MimeKit": "2.10.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/_._": {}
+        },
+        "runtime": {
+          "lib/net46/MailKit.dll": {}
         }
       },
       "Microsoft.AspNet.SignalR.Client/2.4.0": {
@@ -1399,6 +2040,16 @@
           "lib/net45/_._": {}
         }
       },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/_._": {}
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {},
+          "lib/40/Microsoft.Exchange.WebServices.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -1457,6 +2108,20 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.FileSystemGlobbing/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
       "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -1508,6 +2173,28 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Microsoft.Identity.Client/4.14.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Drawing",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Windows.Forms",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Identity.Client.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -1525,6 +2212,15 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.OLE.Interop/16.7.30328.74": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
         }
       },
       "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
@@ -1545,6 +2241,27 @@
           "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
         }
       },
+      "MimeKit/2.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.8",
+          "System.Buffers": "4.5.1",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Net.Http",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net46/_._": {}
+        },
+        "runtime": {
+          "lib/net46/MimeKit.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -1552,6 +2269,30 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NPOI/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpZipLib": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/NPOI.OOXML.dll": {},
+          "lib/net45/NPOI.OpenXml4Net.dll": {},
+          "lib/net45/NPOI.OpenXmlFormats.dll": {},
+          "lib/net45/NPOI.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.8": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
       "RestSharp/106.11.7": {
@@ -1598,6 +2339,18 @@
         },
         "runtime": {
           "lib/net461/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data.DataSetExtensions"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
         }
       },
       "System.IO.Abstractions/3.0.10": {
@@ -1776,6 +2529,32 @@
           "lib/net461/System.ValueTuple.dll": {}
         }
       },
+      "UiBank_Library/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.Excel.Activities": "2.10.3-preview",
+          "UiPath.Mail.Activities": "1.10.3-preview",
+          "UiPath.System.Activities": "21.4.0-preview",
+          "UiPath.UIAutomation.Activities": "21.4.1-preview"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/UiBank_Library.dll": {},
+          "lib/net45/UiBank_Library_Expressions_13427635.dll": {},
+          "lib/net45/UiBank_Library_Expressions_23288440.dll": {},
+          "lib/net45/UiBank_Library_Expressions_27541955.dll": {},
+          "lib/net45/UiBank_Library_Expressions_63386889.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "UiPath/21.4.23.2412": {
         "type": "package",
         "compile": {
@@ -1786,6 +2565,255 @@
         },
         "build": {
           "build/_._": {}
+        }
+      },
+      "UiPath.Excel.Activities/2.10.3-preview": {
+        "type": "package",
+        "dependencies": {
+          "ClosedXML": "0.87.1",
+          "CsvHelper": "15.0.5",
+          "DocumentFormat.OpenXml": "2.5.0",
+          "Microsoft.VisualStudio.OLE.Interop": "16.7.30328.74",
+          "NPOI": "2.4.1",
+          "SharpZipLib": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Activities",
+          "System.Activities.Presentation"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Excel.Activities.Design.dll": {},
+          "lib/net461/UiPath.Excel.Activities.Package.dll": {},
+          "lib/net461/UiPath.Excel.Activities.dll": {},
+          "lib/net461/UiPath.Excel.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.Mail.Activities/1.10.3-preview": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Calendar.v3": "1.43.0.1872",
+          "Google.Apis.Gmail.v1": "1.43.0.1859",
+          "Google.Apis.PeopleService.v1": "1.43.0.1876",
+          "MailKit": "2.10.0",
+          "Microsoft.Exchange.WebServices": "2.2.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "5.0.0",
+          "Microsoft.Identity.Client": "4.14.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Mail.Activities.Design.dll": {},
+          "lib/net461/UiPath.Mail.Activities.Package.dll": {},
+          "lib/net461/UiPath.Mail.Activities.dll": {},
+          "lib/net461/UiPath.Mail.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
+          }
         }
       },
       "UiPath.OCR.Activities/3.0.0": {
@@ -2458,6 +3486,23 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
+    "ClosedXML/0.87.1": {
+      "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
+      "type": "package",
+      "path": "closedxml/0.87.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "closedxml.0.87.1.nupkg.sha512",
+        "closedxml.nuspec",
+        "lib/net35/ClosedXML.dll",
+        "lib/net35/ClosedXML.pdb",
+        "lib/net35/ClosedXML.xml",
+        "lib/net40/ClosedXML.dll",
+        "lib/net40/ClosedXML.pdb",
+        "lib/net40/ClosedXML.xml"
+      ]
+    },
     "CsvHelper/16.0.0": {
       "sha512": "ZHuVi+c8T/3ksqqCvY6nOWlJvOK+W+0Hnnlucg7lIZA6iSGQ162+998gwXxoBfSaDUp0/cDlrTMq2wnRohErOQ==",
       "type": "package",
@@ -2476,6 +3521,195 @@
         "lib/netstandard2.0/CsvHelper.xml",
         "lib/netstandard2.1/CsvHelper.dll",
         "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.5.0": {
+      "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
+      "type": "package",
+      "path": "documentformat.openxml/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        "documentformat.openxml.2.5.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "Google.Apis/1.43.0": {
+      "sha512": "obrhmOs3G1NdKb6vJukj5nls3FJ8qcheSugvUDA5fHA+4sb9hOvSgtR4rzSiBFTSn30d8C9aJAUFlBtcFi4ltA==",
+      "type": "package",
+      "path": "google.apis/1.43.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.1.43.0.nupkg.sha512",
+        "google.apis.nuspec",
+        "lib/net45/Google.Apis.PlatformServices.dll",
+        "lib/net45/Google.Apis.dll",
+        "lib/net45/Google.Apis.pdb",
+        "lib/net45/Google.Apis.xml",
+        "lib/netstandard1.3/Google.Apis.dll",
+        "lib/netstandard1.3/Google.Apis.pdb",
+        "lib/netstandard1.3/Google.Apis.xml",
+        "lib/netstandard2.0/Google.Apis.dll",
+        "lib/netstandard2.0/Google.Apis.pdb",
+        "lib/netstandard2.0/Google.Apis.xml"
+      ]
+    },
+    "Google.Apis.Auth/1.43.0": {
+      "sha512": "612MnDeSfltoLztQnlG78ndEJn4kCKP/tnqKMI4l0biZoVJb9l+H1KtU1tTLW1ftiq+mgSoGfAR4jS2JGGOJRA==",
+      "type": "package",
+      "path": "google.apis.auth/1.43.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.auth.1.43.0.nupkg.sha512",
+        "google.apis.auth.nuspec",
+        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net45/Google.Apis.Auth.dll",
+        "lib/net45/Google.Apis.Auth.pdb",
+        "lib/net45/Google.Apis.Auth.xml",
+        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.pdb",
+        "lib/netstandard1.3/Google.Apis.Auth.xml",
+        "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.pdb",
+        "lib/netstandard2.0/Google.Apis.Auth.xml"
+      ]
+    },
+    "Google.Apis.Calendar.v3/1.43.0.1872": {
+      "sha512": "mhM15iIL4xugQblXoAbb+64TIpb9xu3+o51m4ak3W5pAW7njUhyGUQaJ7WFfFWs4kOuuzpHhIGhq8ME0RcrdLw==",
+      "type": "package",
+      "path": "google.apis.calendar.v3/1.43.0.1872",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.calendar.v3.1.43.0.1872.nupkg.sha512",
+        "google.apis.calendar.v3.nuspec",
+        "lib/net40/Google.Apis.Calendar.v3.dll",
+        "lib/net40/Google.Apis.Calendar.v3.pdb",
+        "lib/net40/Google.Apis.Calendar.v3.xml",
+        "lib/net45/Google.Apis.Calendar.v3.dll",
+        "lib/net45/Google.Apis.Calendar.v3.pdb",
+        "lib/net45/Google.Apis.Calendar.v3.xml",
+        "lib/netstandard1.0/Google.Apis.Calendar.v3.dll",
+        "lib/netstandard1.0/Google.Apis.Calendar.v3.pdb",
+        "lib/netstandard1.0/Google.Apis.Calendar.v3.xml",
+        "lib/netstandard1.3/Google.Apis.Calendar.v3.dll",
+        "lib/netstandard1.3/Google.Apis.Calendar.v3.pdb",
+        "lib/netstandard1.3/Google.Apis.Calendar.v3.xml",
+        "lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
+        "lib/netstandard2.0/Google.Apis.Calendar.v3.pdb",
+        "lib/netstandard2.0/Google.Apis.Calendar.v3.xml"
+      ]
+    },
+    "Google.Apis.Core/1.43.0": {
+      "sha512": "Y5uzXQP58JFV1VKENO+/IALD1ID8PSff8jFVL9jYUdiXKCI82/1hR8PAx4sQcAenFrFgCNAPSwYJRFJ46OvtBQ==",
+      "type": "package",
+      "path": "google.apis.core/1.43.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.core.1.43.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net45/Google.Apis.Core.dll",
+        "lib/net45/Google.Apis.Core.pdb",
+        "lib/net45/Google.Apis.Core.xml",
+        "lib/netstandard1.3/Google.Apis.Core.dll",
+        "lib/netstandard1.3/Google.Apis.Core.pdb",
+        "lib/netstandard1.3/Google.Apis.Core.xml",
+        "lib/netstandard2.0/Google.Apis.Core.dll",
+        "lib/netstandard2.0/Google.Apis.Core.pdb",
+        "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.Gmail.v1/1.43.0.1859": {
+      "sha512": "lqN1be0fD+H6IV4UM7qTHNtIQQKYRGnMQXoBKaipI8HIXhWAVP/Ko10vizJxA9SedkCBaLYBHiIkPcCOQWihwA==",
+      "type": "package",
+      "path": "google.apis.gmail.v1/1.43.0.1859",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.gmail.v1.1.43.0.1859.nupkg.sha512",
+        "google.apis.gmail.v1.nuspec",
+        "lib/net40/Google.Apis.Gmail.v1.dll",
+        "lib/net40/Google.Apis.Gmail.v1.pdb",
+        "lib/net40/Google.Apis.Gmail.v1.xml",
+        "lib/net45/Google.Apis.Gmail.v1.dll",
+        "lib/net45/Google.Apis.Gmail.v1.pdb",
+        "lib/net45/Google.Apis.Gmail.v1.xml",
+        "lib/netstandard1.0/Google.Apis.Gmail.v1.dll",
+        "lib/netstandard1.0/Google.Apis.Gmail.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.Gmail.v1.xml",
+        "lib/netstandard1.3/Google.Apis.Gmail.v1.dll",
+        "lib/netstandard1.3/Google.Apis.Gmail.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.Gmail.v1.xml",
+        "lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
+        "lib/netstandard2.0/Google.Apis.Gmail.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.Gmail.v1.xml"
+      ]
+    },
+    "Google.Apis.PeopleService.v1/1.43.0.1876": {
+      "sha512": "XA8LzxzdsHN7oA7BUXu63kmt/AezqKXZ44l2Z47yCX6eIVrXuFzJ7qgqfnpt/M5JirkTtGb4ILdhX2S5IWHPbw==",
+      "type": "package",
+      "path": "google.apis.peopleservice.v1/1.43.0.1876",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.peopleservice.v1.1.43.0.1876.nupkg.sha512",
+        "google.apis.peopleservice.v1.nuspec",
+        "lib/net40/Google.Apis.PeopleService.v1.dll",
+        "lib/net40/Google.Apis.PeopleService.v1.pdb",
+        "lib/net40/Google.Apis.PeopleService.v1.xml",
+        "lib/net45/Google.Apis.PeopleService.v1.dll",
+        "lib/net45/Google.Apis.PeopleService.v1.pdb",
+        "lib/net45/Google.Apis.PeopleService.v1.xml",
+        "lib/netstandard1.0/Google.Apis.PeopleService.v1.dll",
+        "lib/netstandard1.0/Google.Apis.PeopleService.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.PeopleService.v1.xml",
+        "lib/netstandard1.3/Google.Apis.PeopleService.v1.dll",
+        "lib/netstandard1.3/Google.Apis.PeopleService.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.PeopleService.v1.xml",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
+      ]
+    },
+    "MailKit/2.10.0": {
+      "sha512": "+MuVBWstHANt4iescbL0zzOZX+OllALJQf+uDdIPsCx+mE3LsNthpJv/8em93VzGoFev1WGLMJfLjCBreg8STg==",
+      "type": "package",
+      "path": "mailkit/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icons/mailkit-50.png",
+        "lib/net45/MailKit.dll",
+        "lib/net45/MailKit.pdb",
+        "lib/net45/MailKit.xml",
+        "lib/net46/MailKit.dll",
+        "lib/net46/MailKit.pdb",
+        "lib/net46/MailKit.xml",
+        "lib/net47/MailKit.dll",
+        "lib/net47/MailKit.pdb",
+        "lib/net47/MailKit.xml",
+        "lib/net48/MailKit.dll",
+        "lib/net48/MailKit.pdb",
+        "lib/net48/MailKit.xml",
+        "lib/netstandard2.0/MailKit.dll",
+        "lib/netstandard2.0/MailKit.pdb",
+        "lib/netstandard2.0/MailKit.xml",
+        "mailkit.2.10.0.nupkg.sha512",
+        "mailkit.nuspec"
       ]
     },
     "Microsoft.AspNet.SignalR.Client/2.4.0": {
@@ -2730,6 +3964,26 @@
         "version.txt"
       ]
     },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "type": "package",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doc/License Terms.rtf",
+        "doc/README.htm",
+        "doc/Redist.txt",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.xml",
+        "lib/40/Microsoft.Exchange.WebServices.dll",
+        "lib/40/Microsoft.Exchange.WebServices.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.xml",
+        "microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+        "microsoft.exchange.webservices.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Configuration/3.1.6": {
       "sha512": "gphCAywKC+ye1XdL+8Nv2Pd5b1Fn2yx7DekB4GQPCKaPyK94T9Tb+Sfk/iNdaDKtDl4vwidMI0w2AnoXtvofsw==",
       "type": "package",
@@ -2812,6 +4066,26 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
+    "Microsoft.Extensions.FileSystemGlobbing/5.0.0": {
+      "sha512": "ArliS8lGk8sWRtrWpqI8yUVYJpRruPjCDT+EIjrgkA/AAPRctlAkRISVZ334chAKktTLzD1+PK8F5IZpGedSqA==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net461/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Microsoft.Extensions.Logging/3.1.6": {
       "sha512": "qZH7iTdJn+kS/DWzQgQWMGMHBv+SqzuJB14G9tKAR2w3b6Wzn4ClAK3LGsc2l/cwBW3At1OJT/jBAal4Qm5Rjw==",
       "type": "package",
@@ -2874,6 +4148,46 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
+    "Microsoft.Identity.Client/4.14.0": {
+      "sha512": "Etqux6Zuuv1yEN4UwKbAn6EZv0Rooc+vM4N9z7gxmeT7dyoKlXIRN44DQPzD9LV1CW0KsTVqH+2B42p1NKqPlQ==",
+      "type": "package",
+      "path": "microsoft.identity.client/4.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Microsoft.Identity.Client.dll",
+        "lib/monoandroid90/Microsoft.Identity.Client.xml",
+        "lib/net45/Microsoft.Identity.Client.dll",
+        "lib/net45/Microsoft.Identity.Client.xml",
+        "lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "lib/netcoreapp2.1/Microsoft.Identity.Client.xml",
+        "lib/netstandard1.3/Microsoft.Identity.Client.dll",
+        "lib/netstandard1.3/Microsoft.Identity.Client.xml",
+        "lib/uap10.0/Microsoft.Identity.Client.dll",
+        "lib/uap10.0/Microsoft.Identity.Client.pri",
+        "lib/uap10.0/Microsoft.Identity.Client.xml",
+        "lib/xamarinios10/Microsoft.Identity.Client.dll",
+        "lib/xamarinios10/Microsoft.Identity.Client.xml",
+        "lib/xamarinmac20/Microsoft.Identity.Client.dll",
+        "lib/xamarinmac20/Microsoft.Identity.Client.xml",
+        "microsoft.identity.client.4.14.0.nupkg.sha512",
+        "microsoft.identity.client.nuspec",
+        "ref/MonoAndroid9.0/Microsoft.Identity.Client.dll",
+        "ref/MonoAndroid9.0/Microsoft.Identity.Client.xml",
+        "ref/Xamarin.iOS10/Microsoft.Identity.Client.dll",
+        "ref/Xamarin.iOS10/Microsoft.Identity.Client.xml",
+        "ref/net45/Microsoft.Identity.Client.dll",
+        "ref/net45/Microsoft.Identity.Client.xml",
+        "ref/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "ref/netcoreapp2.1/Microsoft.Identity.Client.xml",
+        "ref/netstandard1.3/Microsoft.Identity.Client.dll",
+        "ref/netstandard1.3/Microsoft.Identity.Client.xml",
+        "ref/uap10.0/Microsoft.Identity.Client.dll",
+        "ref/uap10.0/Microsoft.Identity.Client.xml",
+        "ref/xamarinmac20/Microsoft.Identity.Client.dll",
+        "ref/xamarinmac20/Microsoft.Identity.Client.xml"
+      ]
+    },
     "Microsoft.Rest.ClientRuntime/2.3.21": {
       "sha512": "KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
       "type": "package",
@@ -2893,6 +4207,23 @@
         "microsoft.rest.clientruntime.nuspec"
       ]
     },
+    "Microsoft.VisualStudio.OLE.Interop/16.7.30328.74": {
+      "sha512": "82RWNPPaQRfFlEtkRQZgSo16a6WpHgL2gfeXbo/ISFHHJWNg/vtyKQrAW7iAsDNp5f3uiZP+9pQWxShAFrlbMw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.ole.interop/16.7.30328.74",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.xml",
+        "microsoft.visualstudio.ole.interop.16.7.30328.74.nupkg.sha512",
+        "microsoft.visualstudio.ole.interop.nuspec"
+      ]
+    },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
       "sha512": "Nj5tRPkKQpIFg7HcXzV1P/1CLk1NtkoJLE0IMKCHZfKMiBWdy6TssdOUT2OHw8L4eKP65lG+OElNR3xdaeW+gQ==",
       "type": "package",
@@ -2908,6 +4239,33 @@
         "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
         "microsoft.xaml.behaviors.wpf.1.1.3.nupkg.sha512",
         "microsoft.xaml.behaviors.wpf.nuspec"
+      ]
+    },
+    "MimeKit/2.10.0": {
+      "sha512": "AHbCxNo6Ue98q/r81TKdCisRJSOv5EF0PWctUqhtzjDJx3xeTxguxZHyZy3ATbHfHFDRVR7TeZgmsfRP7dXs6g==",
+      "type": "package",
+      "path": "mimekit/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icons/mimekit-50.png",
+        "lib/net45/MimeKit.dll",
+        "lib/net45/MimeKit.pdb",
+        "lib/net45/MimeKit.xml",
+        "lib/net46/MimeKit.dll",
+        "lib/net46/MimeKit.pdb",
+        "lib/net46/MimeKit.xml",
+        "lib/net47/MimeKit.dll",
+        "lib/net47/MimeKit.pdb",
+        "lib/net47/MimeKit.xml",
+        "lib/net48/MimeKit.dll",
+        "lib/net48/MimeKit.pdb",
+        "lib/net48/MimeKit.xml",
+        "lib/netstandard2.0/MimeKit.dll",
+        "lib/netstandard2.0/MimeKit.pdb",
+        "lib/netstandard2.0/MimeKit.xml",
+        "mimekit.2.10.0.nupkg.sha512",
+        "mimekit.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.3": {
@@ -2939,6 +4297,54 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "NPOI/2.4.1": {
+      "sha512": "85790/CY9z4DCU1KLpcdLSqaqaqmQOenTqXJfcsYK8LIKNAAoTgjT5LYLbORgdwAd63sbaJiCfB1SIn/dAXrJw==",
+      "type": "package",
+      "path": "npoi/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE",
+        "Read Me.txt",
+        "lib/NPOI.xml",
+        "lib/net40/NPOI.OOXML.dll",
+        "lib/net40/NPOI.OpenXml4Net.dll",
+        "lib/net40/NPOI.OpenXmlFormats.dll",
+        "lib/net40/NPOI.dll",
+        "lib/net45/NPOI.OOXML.dll",
+        "lib/net45/NPOI.OpenXml4Net.dll",
+        "lib/net45/NPOI.OpenXmlFormats.dll",
+        "lib/net45/NPOI.dll",
+        "lib/netstandard2.0/NPOI.OOXML.deps.json",
+        "lib/netstandard2.0/NPOI.OOXML.dll",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.deps.json",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.dll",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.deps.json",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.dll",
+        "lib/netstandard2.0/NPOI.deps.json",
+        "lib/netstandard2.0/NPOI.dll",
+        "logo/120_120.jpg",
+        "logo/240_240.png",
+        "logo/32_32.jpg",
+        "logo/60_60.jpg",
+        "npoi.2.4.1.nupkg.sha512",
+        "npoi.nuspec"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.8": {
+      "sha512": "1rxdf8NfyAxLlqIEciCl/yNhmz1YiLkmp6rrF8p3/NVmyHHzPWLx8djtDvSAwhPLg64BXvsRcM3+5bP1HAUdYg==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.8.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
       ]
     },
     "RestSharp/106.11.7": {
@@ -3090,6 +4496,25 @@
         "ref/xamarinwatchos10/_._",
         "system.componentmodel.annotations.4.7.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "type": "package",
+      "path": "system.data.datasetextensions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "system.data.datasetextensions.4.5.0.nupkg.sha512",
+        "system.data.datasetextensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -3424,6 +4849,218 @@
         "version.txt"
       ]
     },
+    "UiBank_Library/1.0.1": {
+      "sha512": "UWoqx8DY3nyBEv7n1E2vtfHO9LG25qCpjKVSjo1noRHYfC4ig+MUk118YhvhdiyFsBNRA3aACciiiWvm+j81Wg==",
+      "type": "package",
+      "path": "uibank_library/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "contentFiles/any/any/.objects/.metadata",
+        "contentFiles/any/any/.objects/.type",
+        "contentFiles/any/any/.objects/nu2V/.data/ObjectSelectionName/.content",
+        "contentFiles/any/any/.objects/nu2V/.data/ObjectSelectionName/.hash",
+        "contentFiles/any/any/.objects/nu2V/.metadata",
+        "contentFiles/any/any/.objects/nu2V/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.data/TargetApp/.attributes/Selector",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.data/TargetApp/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.data/TargetApp/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.data/TargetApp/.images/.design/0Oq6LmuO6y0OpfbPCBWW1XQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.data/TargetApp/.images/.runtime/02PZXe1vWEUuP42SuY-0G2g",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.data/TargetAnchorable/.images/.design/0uKO6mDKleE-15QAvf2-BNw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.data/TargetAnchorable/.images/.runtime/0JabioDaqw0qniBSysv5lcQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/WcaRn/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.data/TargetAnchorable/.images/.design/0Pv5qah-j6k-_UglaVyERig",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.data/TargetAnchorable/.images/.runtime/01ZuuhL52tEO3vnajh0sFmg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/gpVAX/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.data/TargetAnchorable/.images/.design/0z4nXKoKXokWrMrknzrklWA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.data/TargetAnchorable/.images/.runtime/04kULdtPRaEaIu9psI7EhBQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/QRjG/kx4aX/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.data/TargetApp/.attributes/Selector",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.data/TargetApp/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.data/TargetApp/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.data/TargetApp/.images/.design/0Tq139DJOLEqJ0PXfR38VTw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.data/TargetApp/.images/.runtime/02lWgl57RQ0CfrXFmh4iXgA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.images/.design/0pdocIKx0B0Wp3Zp7-E5_rQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.images/.runtime/0tkEc_QOTJkekB9mEb5v7ZA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.data/TargetAnchorable/.images/.runtime/116lIYH6R5EeQSGXCW80nTg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/5pWSF/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.data/TargetAnchorable/.images/.design/0Qpcvx09u_kiXAwkkZj6vqg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.data/TargetAnchorable/.images/.runtime/0R2sbR57I3UCDLVAtAXSJ7Q",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/Bwax9/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.data/TargetAnchorable/.images/.design/0E5ps3B-5dEWGpD6WSvKpLQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.data/TargetAnchorable/.images/.runtime/0z_EU9HCo7kWxLu8w2giMvQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/MTNxt/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.images/.design/0FNKimGmXLkKqQ67EECOwgw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.images/.runtime/0H_Z5t7GoyEi-fhu1ULEwhw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.data/TargetAnchorable/.images/.runtime/1ezjwKr41rkCxgaAz9EKmZg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/QgYyy/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.images/.design/0zMTLr2A9VEeetyuGZDyDAg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.images/.runtime/0MeW25bWu9k-o7c5Ru2wPTw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.data/TargetAnchorable/.images/.runtime/1Tq5uDL60j0a_kQh_lv65BQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/kGz_A/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.images/.design/0pWvVr3uh8ESlbv815HtfiQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.images/.runtime/0az573pF8M0KyatRopY3wOQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.data/TargetAnchorable/.images/.runtime/1GZBZwODqnE-SPfGNPspuxQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/RYhW/o8bAq/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.data/TargetApp/.attributes/Selector",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.data/TargetApp/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.data/TargetApp/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.data/TargetApp/.images/.design/0aatNroEEXUSPcLMvPrV67Q",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.data/TargetApp/.images/.runtime/0LYcQw8Yh4kmnbXAFRgch9g",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.data/TargetAnchorable/.images/.design/0tLRxhka970eh7fRpfODlow",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.data/TargetAnchorable/.images/.runtime/0oBZbwY4C2UCaWGmuB5b7vA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/36xQ/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.data/TargetAnchorable/.images/.design/0rImfrHx0HEOkFWsRMqaZTg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.data/TargetAnchorable/.images/.runtime/0ylw9OhH53EGWJdx5gUBSyA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/Am2S/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.data/TargetAnchorable/.images/.design/0_v3YADUja0SD7Sr_IZTydw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.data/TargetAnchorable/.images/.runtime/0z8e9O0W_R0mBK7k3dHFT2Q",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/PuPL/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.data/TargetAnchorable/.images/.design/0Xt5J8C_zA0SBnYdzXdMdsQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.data/TargetAnchorable/.images/.runtime/0L82Cr9GyJkWCKSVV23L6QA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/XBce/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.data/TargetAnchorable/.images/.design/0yvhivSppgkGUbCltHh99MA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.data/TargetAnchorable/.images/.runtime/05uu6QW-lD0S90bMaoseklQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/YBX9/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.images/.design/0nVYIIavIxUOWXDoe-DIOXA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.images/.runtime/061gW53dRwEiodXpr7xxY9A",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.data/TargetAnchorable/.images/.runtime/62K3lXS9qbNEiJ1glorjHonw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/b3-6/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.images/.design/0BcPO0wFKIEmrfFECv7kUYA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.images/.runtime/0lbrRDvZMZkmq2LMaf9EUpA",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.data/TargetAnchorable/.images/.runtime/1d_4wae5-E029GcjtyEnjvg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/ismC/byGy/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.data/TargetApp/.attributes/Selector",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.data/TargetApp/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.data/TargetApp/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.data/TargetApp/.images/.design/0vjRlShrqXE6e85kx-m1trQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.data/TargetApp/.images/.runtime/0f9EuunmitUuPl0rljmnDfQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.data/TargetAnchorable/.images/.design/01OsN25VqekqXcTQcC_QR5Q",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.data/TargetAnchorable/.images/.runtime/0lrNHLJQeWUCeftDJs-oWrg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/QIBo_/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.data/TargetAnchorable/.images/.design/0YTO_l0gDSUShlOXdpkFAZQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.data/TargetAnchorable/.images/.runtime/01hxJk1MvC0O43012w9Jnlw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/S5Los/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.data/TargetAnchorable/.images/.design/0RHG6JRwL4UuCQiERxrXDOQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.data/TargetAnchorable/.images/.runtime/02hNCFJNABEyi-Hk2BAAFww",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/VxNwQ/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.data/TargetAnchorable/.images/.design/0HRQGxVo3hECfNJIA03b3Cw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.data/TargetAnchorable/.images/.runtime/0mTigkHFfME-aV_9ZnW5TRw",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/Yf2_o/.type",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.data/TargetAnchorable/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.data/TargetAnchorable/.content",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.data/TargetAnchorable/.hash",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.data/TargetAnchorable/.images/.design/0dcDQdvnCt0-kebBmbXylpg",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.data/TargetAnchorable/.images/.runtime/0QL12uW-uME2L9zXQB_wKiQ",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.metadata",
+        "contentFiles/any/any/.objects/nu2V/GK9z/k7ct/gkyt1/.type",
+        "lib/net45/.settings/Release/settings-1a5b880a.json",
+        "lib/net45/.settings/Release/settings-5190454b.json",
+        "lib/net45/.settings/Release/settings-590bb27b.json",
+        "lib/net45/.settings/Release/settings-9e9290da.json",
+        "lib/net45/.settings/Release/settings-a1b2dac1.json",
+        "lib/net45/.settings/Release/settings-afad0842.json",
+        "lib/net45/.tmh/config.json",
+        "lib/net45/UiBank_Library.dll",
+        "lib/net45/UiBank_Library_Expressions_13427635.dll",
+        "lib/net45/UiBank_Library_Expressions_23288440.dll",
+        "lib/net45/UiBank_Library_Expressions_27541955.dll",
+        "lib/net45/UiBank_Library_Expressions_63386889.dll",
+        "lib/net45/project.json",
+        "uibank_library.1.0.1.nupkg.sha512",
+        "uibank_library.nuspec"
+      ]
+    },
     "UiPath/21.4.23.2412": {
       "sha512": "xse35oxzE8CoEdhevo6IoDTFQeS32idZvLjiSr+7dtXpf5BqtnOiCX/0FoIRmf9MbfUGJFZ+ZHcvjwLTx2SmQQ==",
       "type": "package",
@@ -3481,6 +5118,102 @@
         "lib/netcoreapp3.1/UiPath.Interop.dll",
         "uipath.21.4.23.2412.nupkg.sha512",
         "uipath.nuspec"
+      ]
+    },
+    "UiPath.Excel.Activities/2.10.3-preview": {
+      "sha512": "qaBLFrv2WxxYYRRQiNHDsmYnFdM6CEakj8olvnBcbP+JII7H0pWuHJo1GEGzKwNO9tHkmPA/qF4rUvqHQErF3A==",
+      "type": "package",
+      "path": "uipath.excel.activities/2.10.3-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.Excel.Activities.Design.dll",
+        "lib/net461/UiPath.Excel.Activities.Package.dll",
+        "lib/net461/UiPath.Excel.Activities.dll",
+        "lib/net461/UiPath.Excel.dll",
+        "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/de/UiPath.Excel.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.resources.dll",
+        "lib/net461/es/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/es/UiPath.Excel.resources.dll",
+        "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Excel.resources.dll",
+        "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Excel.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Excel.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.resources.dll",
+        "lib/net461/pt/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Excel.resources.dll",
+        "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Excel.resources.dll",
+        "lib/net461/tr/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Excel.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.resources.dll",
+        "uipath.excel.activities.2.10.3-preview.nupkg.sha512",
+        "uipath.excel.activities.nuspec"
+      ]
+    },
+    "UiPath.Mail.Activities/1.10.3-preview": {
+      "sha512": "VBvHe/wah1UKNT8u7VyRIgy290yArBX37Z38okwHXpo7ky074x8irL4HBa/SqV0X8pX2cFijC57RszBjd+mllw==",
+      "type": "package",
+      "path": "uipath.mail.activities/1.10.3-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.Mail.Activities.Design.dll",
+        "lib/net461/UiPath.Mail.Activities.Package.dll",
+        "lib/net461/UiPath.Mail.Activities.dll",
+        "lib/net461/UiPath.Mail.dll",
+        "lib/net461/de/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/de/UiPath.Mail.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.resources.dll",
+        "lib/net461/es/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/es/UiPath.Mail.resources.dll",
+        "lib/net461/fr/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Mail.resources.dll",
+        "lib/net461/ja/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Mail.resources.dll",
+        "lib/net461/ko/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Mail.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.resources.dll",
+        "lib/net461/pt/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Mail.resources.dll",
+        "lib/net461/ru/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Mail.resources.dll",
+        "lib/net461/tr/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Mail.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.resources.dll",
+        "uipath.mail.activities.1.10.3-preview.nupkg.sha512",
+        "uipath.mail.activities.nuspec"
       ]
     },
     "UiPath.OCR.Activities/3.0.0": {
@@ -3897,6 +5630,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "UiBank_Library >= 1.0.1 <= 1.0.1",
       "UiPath.System.Activities >= 21.4.0-preview <= 21.4.0-preview",
       "UiPath.Testing.Activities >= 1.3.1-preview <= 1.3.1-preview",
       "UiPath.UIAutomation.Activities >= 21.4.1-preview <= 21.4.1-preview"
@@ -3916,6 +5650,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "UiBank_Library": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.1, 1.0.1]"
+          },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
