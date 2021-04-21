@@ -3909,9 +3909,9 @@
     "restore": {
       "projectUniqueName": "UiBank_App Testing",
       "projectName": "UiBank_App Testing",
-      "projectPath": "C:\\Users\\Christian Mayer\\Documents\\GitHub\\Demo-Day\\UiBank_App Testing\\.local",
+      "projectPath": "C:\\Data\\UiPath\\ASQ-Demo\\UiBank_App Testing\\.local",
       "packagesPath": "C:\\Users\\Christian Mayer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian Mayer\\Documents\\GitHub\\Demo-Day\\UiBank_App Testing\\.local"
+      "outputPath": "C:\\Data\\UiPath\\ASQ-Demo\\UiBank_App Testing\\.local"
     },
     "frameworks": {
       "net461": {

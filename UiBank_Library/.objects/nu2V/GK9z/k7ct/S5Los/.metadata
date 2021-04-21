@@ -1,0 +1,13 @@
+﻿{
+  "Id": "S5LostIJL06IHLwPNXvWDw",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/S5LostIJL06IHLwPNXvWDw",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/k7cttHGOOkismcAi3ty-rQ",
+  "Name": "Home Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-04-21T14:00:29.0046705Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T14:00:29.0046705Z"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank-frontend.azurewebsites.net/" ContentHash="B-0RmrhfxEClc_jiR_SCYg" DesignTimeRectangle="1377, 456, 111, 40" ElementType="Button" FriendlyName="'Get Started'" FullSelectorArgument="&lt;webctrl aaname='Get Started' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Get Started' tag='BUTTON' type='submit' check:text='Get Started' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0ylw9OhH53EGWJdx5gUBSyA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="15a063483bd1a21921f75dee5718cf87.png" xmlns="">0rImfrHx0HEOkFWsRMqaZTg</imageRef>
+</TargetAnchorable>

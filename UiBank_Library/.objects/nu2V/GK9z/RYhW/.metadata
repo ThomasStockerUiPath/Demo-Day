@@ -1,0 +1,15 @@
+﻿{
+  "Id": "RYhWErD6-0yWksZZLTDuuQ",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/RYhWErD6-0yWksZZLTDuuQ",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/GK9zWU3vQUOL_RQpYFQeGw",
+  "Name": "Chrome: Apply for Loan - Enter Data",
+  "Type": "Screen",
+  "Created": "2021-04-21T13:54:22.8494192Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:54:53.5335482Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

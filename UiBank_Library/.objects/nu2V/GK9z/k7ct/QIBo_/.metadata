@@ -1,0 +1,13 @@
+﻿{
+  "Id": "QIBo_AnRxkaiDwhKFDfEGg",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/QIBo_AnRxkaiDwhKFDfEGg",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/k7cttHGOOkismcAi3ty-rQ",
+  "Name": "Apply For Another Loan",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-04-21T14:00:28.9617858Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T14:00:28.9617858Z"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank-frontend.azurewebsites.net/loans/apply" ContentHash="QG4SBwHugk2V2UD1ospo2A" DesignTimeRectangle="968, 612, 640, 30" ElementType="InputBox" FriendlyName="'INPUT income'" FullSelectorArgument="&lt;webctrl id='income' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl id='income' tag='INPUT' type='number' aaname='Current Yearly Income (Before Taxes)' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="968, 587, 239, 19" ElementType="Text" FriendlyName="'Current Yearly'" FullSelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' type='' check:text='Current Yearly Income (Before Taxes)' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1Tq5uDL60j0a_kQh_lv65BQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0MeW25bWu9k-o7c5Ru2wPTw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d029af0d86a875e424bdbdf03f2870e0.png" xmlns="">0zMTLr2A9VEeetyuGZDyDAg</imageRef>
+</TargetAnchorable>

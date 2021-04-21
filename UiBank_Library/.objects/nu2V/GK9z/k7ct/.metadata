@@ -1,0 +1,15 @@
+﻿{
+  "Id": "k7cttHGOOkismcAi3ty-rQ",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/k7cttHGOOkismcAi3ty-rQ",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/GK9zWU3vQUOL_RQpYFQeGw",
+  "Name": "Chrome: Apply for Loan - Confirmation Screen",
+  "Type": "Screen",
+  "Created": "2021-04-21T14:00:28.9179033Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T14:00:50.5654722Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

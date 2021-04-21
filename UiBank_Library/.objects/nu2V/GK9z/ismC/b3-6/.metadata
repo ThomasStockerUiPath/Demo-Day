@@ -1,0 +1,14 @@
+﻿{
+  "Id": "b3-6Bjup90Gi7wQEr5w62w",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/b3-6Bjup90Gi7wQEr5w62w",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/ismCw2aKgka7fy2g_T3pTA",
+  "Name": "Password",
+  "Description": "Password for the Login",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-04-21T13:32:58.0068859Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:32:58.0068859Z"
+}

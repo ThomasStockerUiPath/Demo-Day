@@ -1,0 +1,15 @@
+﻿{
+  "Id": "ismCw2aKgka7fy2g_T3pTA",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/ismCw2aKgka7fy2g_T3pTA",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/GK9zWU3vQUOL_RQpYFQeGw",
+  "Name": "Chrome: Main Screen",
+  "Type": "Screen",
+  "Created": "2021-04-21T13:32:57.7699372Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:33:19.7369259Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -31,13 +31,16 @@
     "outputType": "Library",
     "libraryOptions": {
       "includeOriginalXaml": false,
-      "privateWorkflows": []
+      "privateWorkflows": [
+        "UiBank/Loan Application/Apply for Loan - full flow.xaml",
+        "UiBank/Loan Application/Test Apply for Loan.xaml"
+      ]
     },
     "processOptions": {
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "isTemplate": false,

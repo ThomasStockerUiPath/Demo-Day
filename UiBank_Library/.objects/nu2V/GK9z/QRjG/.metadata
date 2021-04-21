@@ -1,0 +1,15 @@
+﻿{
+  "Id": "QRjG158O70-t7Sf_Cwb_LQ",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/QRjG158O70-t7Sf_Cwb_LQ",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/GK9zWU3vQUOL_RQpYFQeGw",
+  "Name": "Chrome: Apply for Loan - Entry screen",
+  "Type": "Screen",
+  "Created": "2021-04-21T13:50:13.1509212Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:55:44.7441192Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

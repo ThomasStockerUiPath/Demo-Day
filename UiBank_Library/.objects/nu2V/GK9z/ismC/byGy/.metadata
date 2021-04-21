@@ -1,0 +1,14 @@
+﻿{
+  "Id": "byGy91LnPU6rkw_U4Tq55w",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/byGy91LnPU6rkw_U4Tq55w",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/ismCw2aKgka7fy2g_T3pTA",
+  "Name": "Username",
+  "Description": "Username for Login",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-04-21T13:32:57.8742064Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:32:57.8742064Z"
+}

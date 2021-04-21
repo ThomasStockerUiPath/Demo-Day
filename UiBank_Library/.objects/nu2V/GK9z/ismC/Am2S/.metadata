@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Am2S_WOcgki8A3cQokEjcQ",
+  "Reference": "qMnkngeFk0yfEr60Jnz8_g/Am2S_WOcgki8A3cQokEjcQ",
+  "ParentRef": "qMnkngeFk0yfEr60Jnz8_g/ismCw2aKgka7fy2g_T3pTA",
+  "Name": "Get Started",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-04-21T13:32:58.2048658Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T13:32:58.2048658Z"
+}
