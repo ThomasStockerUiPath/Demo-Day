@@ -7,8 +7,8 @@
   },
   "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/",
   "defaultProject": {
-    "id": "6deacf3e-6cff-4998-c170-08d89765004b",
-    "name": "UiBank_Demo",
-    "key": "UIBD"
+    "id": "d8567f23-3cba-428c-9251-0b426c3e8dd1",
+    "name": "Demo Day RPA Testing",
+    "key": "DDRPA"
   }
 }
