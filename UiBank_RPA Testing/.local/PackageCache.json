@@ -2,57 +2,34 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.11.0-alpha.1551134"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities/2.11.0-alpha.1551134\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities/2.11.0-alpha.1551134\\lib/net461/UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities/2.11.0-alpha.1551134\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities/2.11.0-alpha.1551134\\lib/net461/UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134"
-    },
-    {
-      "Package": {
         "Id": "UiPath.Mail.Activities",
         "Version": "1.10.3-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview"
     },
     {
       "Package": {
@@ -60,50 +37,50 @@
         "Version": "21.4.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview"
     },
     {
       "Package": {
@@ -111,24 +88,24 @@
         "Version": "1.3.1-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\automapper/9.0.0\\lib/net461/AutoMapper.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.xaml.behaviors.wpf/1.1.3\\lib/net45/Microsoft.Xaml.Behaviors.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\restsharp/106.11.7\\lib/net452/RestSharp.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Orchestrator.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.RulesLibrary.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Web.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\automapper/9.0.0\\lib/net461/AutoMapper.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf/1.1.3\\lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\restsharp/106.11.7\\lib/net452/RestSharp.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Orchestrator.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Testing.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities/1.3.1-preview\\lib/net461/UiPath.Web.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview"
     },
     {
       "Package": {
@@ -136,36 +113,36 @@
         "Version": "21.4.1-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath/21.4.23.2412\\lib/net45/UiPath.Interop.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Core.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath/21.4.23.2412\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Package.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview"
     }
   ],
   "Conflicts": [],
@@ -174,16 +151,6 @@
       "Id": "AutoMapper",
       "Version": "9.0.0",
       "Dependencies": []
-    },
-    "ClosedXML": {
-      "Id": "ClosedXML",
-      "Version": "0.87.1",
-      "Dependencies": [
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.5.0, )"
-        }
-      ]
     },
     "CsvHelper": {
       "Id": "CsvHelper",
@@ -198,11 +165,6 @@
           "Item2": "[4.4.0, )"
         }
       ]
-    },
-    "DocumentFormat.OpenXml": {
-      "Id": "DocumentFormat.OpenXml",
-      "Version": "2.5.0",
-      "Dependencies": []
     },
     "Google.Apis": {
       "Id": "Google.Apis",
@@ -588,11 +550,6 @@
         }
       ]
     },
-    "Microsoft.VisualStudio.OLE.Interop": {
-      "Id": "Microsoft.VisualStudio.OLE.Interop",
-      "Version": "16.7.30328.74",
-      "Dependencies": []
-    },
     "Microsoft.Xaml.Behaviors.Wpf": {
       "Id": "Microsoft.Xaml.Behaviors.Wpf",
       "Version": "1.1.3",
@@ -620,16 +577,6 @@
       "Id": "Newtonsoft.Json",
       "Version": "12.0.3",
       "Dependencies": []
-    },
-    "NPOI": {
-      "Id": "NPOI",
-      "Version": "2.4.1",
-      "Dependencies": [
-        {
-          "Item1": "SharpZipLib",
-          "Item2": "[1.0.0, )"
-        }
-      ]
     },
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
@@ -799,32 +746,6 @@
       "Id": "UiPath",
       "Version": "21.4.23.2412",
       "Dependencies": []
-    },
-    "UiPath.Excel.Activities": {
-      "Id": "UiPath.Excel.Activities",
-      "Version": "2.11.0-alpha.1551134",
-      "Dependencies": [
-        {
-          "Item1": "ClosedXML",
-          "Item2": "[0.87.1, )"
-        },
-        {
-          "Item1": "CsvHelper",
-          "Item2": "[15.0.5, )"
-        },
-        {
-          "Item1": "DocumentFormat.OpenXml",
-          "Item2": "[2.5.0, )"
-        },
-        {
-          "Item1": "Microsoft.VisualStudio.OLE.Interop",
-          "Item2": "[16.7.30328.74, )"
-        },
-        {
-          "Item1": "NPOI",
-          "Item2": "[2.4.1, )"
-        }
-      ]
     },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
@@ -1047,19 +968,9 @@
         "Version": "9.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\automapper\\9.0.0\\lib\\net461\\AutoMapper.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\automapper\\9.0.0\\lib\\net461\\AutoMapper.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\automapper\\9.0.0"
-    },
-    {
-      "Package": {
-        "Id": "ClosedXML",
-        "Version": "0.87.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\closedxml\\0.87.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\automapper\\9.0.0"
     },
     {
       "Package": {
@@ -1067,19 +978,9 @@
         "Version": "16.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\net45\\CsvHelper.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\net45\\CsvHelper.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\csvhelper\\16.0.0"
-    },
-    {
-      "Package": {
-        "Id": "DocumentFormat.OpenXml",
-        "Version": "2.5.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\csvhelper\\16.0.0"
     },
     {
       "Package": {
@@ -1087,10 +988,10 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis\\1.43.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis\\1.43.0"
     },
     {
       "Package": {
@@ -1098,10 +999,10 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.auth\\1.43.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.auth\\1.43.0"
     },
     {
       "Package": {
@@ -1109,9 +1010,9 @@
         "Version": "1.43.0.1872"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.calendar.v3\\1.43.0.1872\\lib\\net45\\Google.Apis.Calendar.v3.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.calendar.v3\\1.43.0.1872\\lib\\net45\\Google.Apis.Calendar.v3.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.calendar.v3\\1.43.0.1872"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.calendar.v3\\1.43.0.1872"
     },
     {
       "Package": {
@@ -1119,9 +1020,9 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.core\\1.43.0\\lib\\net45\\Google.Apis.Core.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.core\\1.43.0\\lib\\net45\\Google.Apis.Core.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.core\\1.43.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.core\\1.43.0"
     },
     {
       "Package": {
@@ -1129,9 +1030,9 @@
         "Version": "1.43.0.1859"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.gmail.v1\\1.43.0.1859\\lib\\net45\\Google.Apis.Gmail.v1.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.gmail.v1\\1.43.0.1859\\lib\\net45\\Google.Apis.Gmail.v1.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.gmail.v1\\1.43.0.1859"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.gmail.v1\\1.43.0.1859"
     },
     {
       "Package": {
@@ -1139,9 +1040,9 @@
         "Version": "1.43.0.1876"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876\\lib\\net45\\Google.Apis.PeopleService.v1.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\google.apis.peopleservice.v1\\1.43.0.1876"
     },
     {
       "Package": {
@@ -1149,9 +1050,9 @@
         "Version": "2.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mailkit\\2.10.0\\lib\\net46\\MailKit.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\mailkit\\2.10.0\\lib\\net46\\MailKit.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mailkit\\2.10.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\mailkit\\2.10.0"
     },
     {
       "Package": {
@@ -1159,9 +1060,9 @@
         "Version": "2.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
     },
     {
       "Package": {
@@ -1169,9 +1070,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Connections.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1179,9 +1080,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
     },
     {
       "Package": {
@@ -1189,9 +1090,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
     },
     {
       "Package": {
@@ -1199,9 +1100,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
     },
     {
       "Package": {
@@ -1209,9 +1110,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
     },
     {
       "Package": {
@@ -1219,9 +1120,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
     },
     {
       "Package": {
@@ -1229,9 +1130,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
     },
     {
       "Package": {
@@ -1239,9 +1140,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
     },
     {
       "Package": {
@@ -1249,9 +1150,9 @@
         "Version": "1.1.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
     },
     {
       "Package": {
@@ -1259,9 +1160,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.csharp\\4.5.0\\lib\\net45\\_._"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\lib\\net45\\_._"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.csharp\\4.5.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.csharp\\4.5.0"
     },
     {
       "Package": {
@@ -1269,10 +1170,10 @@
         "Version": "2.2.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
     },
     {
       "Package": {
@@ -1280,9 +1181,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
     },
     {
       "Package": {
@@ -1290,9 +1191,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1300,9 +1201,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
     },
     {
       "Package": {
@@ -1310,9 +1211,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\net461\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\net461\\Microsoft.Extensions.DependencyInjection.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
     },
     {
       "Package": {
@@ -1320,9 +1221,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1330,9 +1231,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib\\net461\\Microsoft.Extensions.FileSystemGlobbing.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib\\net461\\Microsoft.Extensions.FileSystemGlobbing.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0"
     },
     {
       "Package": {
@@ -1340,9 +1241,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
     },
     {
       "Package": {
@@ -1350,9 +1251,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -1360,9 +1261,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
     },
     {
       "Package": {
@@ -1370,9 +1271,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
     },
     {
       "Package": {
@@ -1380,9 +1281,9 @@
         "Version": "4.14.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\lib\\net45\\Microsoft.Identity.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\lib\\net45\\Microsoft.Identity.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.identity.client\\4.14.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.identity.client\\4.14.0"
     },
     {
       "Package": {
@@ -1390,19 +1291,9 @@
         "Version": "2.3.21"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.VisualStudio.OLE.Interop",
-        "Version": "16.7.30328.74"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib\\net45\\Microsoft.VisualStudio.OLE.Interop.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
     },
     {
       "Package": {
@@ -1410,9 +1301,9 @@
         "Version": "1.1.3"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\lib\\net45\\Microsoft.Xaml.Behaviors.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\lib\\net45\\Microsoft.Xaml.Behaviors.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3"
     },
     {
       "Package": {
@@ -1420,9 +1311,9 @@
         "Version": "2.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mimekit\\2.10.0\\lib\\net46\\MimeKit.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\mimekit\\2.10.0\\lib\\net46\\MimeKit.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\mimekit\\2.10.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\mimekit\\2.10.0"
     },
     {
       "Package": {
@@ -1430,22 +1321,9 @@
         "Version": "12.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\newtonsoft.json\\12.0.3"
-    },
-    {
-      "Package": {
-        "Id": "NPOI",
-        "Version": "2.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\npoi\\2.4.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\newtonsoft.json\\12.0.3"
     },
     {
       "Package": {
@@ -1453,9 +1331,9 @@
         "Version": "1.8.8"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\portable.bouncycastle\\1.8.8\\lib\\net40\\BouncyCastle.Crypto.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\portable.bouncycastle\\1.8.8\\lib\\net40\\BouncyCastle.Crypto.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\portable.bouncycastle\\1.8.8"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\portable.bouncycastle\\1.8.8"
     },
     {
       "Package": {
@@ -1463,9 +1341,9 @@
         "Version": "106.11.7"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\restsharp\\106.11.7\\lib\\net452\\RestSharp.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\restsharp\\106.11.7\\lib\\net452\\RestSharp.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\restsharp\\106.11.7"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\restsharp\\106.11.7"
     },
     {
       "Package": {
@@ -1473,9 +1351,9 @@
         "Version": "1.2.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\sharpziplib\\1.2.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\sharpziplib\\1.2.0"
     },
     {
       "Package": {
@@ -1483,9 +1361,9 @@
         "Version": "4.5.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.buffers\\4.5.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.buffers\\4.5.1"
     },
     {
       "Package": {
@@ -1493,9 +1371,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
     },
     {
       "Package": {
@@ -1503,9 +1381,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\lib\\net45\\_._"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\lib\\net45\\_._"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.data.datasetextensions\\4.5.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.data.datasetextensions\\4.5.0"
     },
     {
       "Package": {
@@ -1513,9 +1391,9 @@
         "Version": "3.0.10"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.abstractions\\3.0.10"
     },
     {
       "Package": {
@@ -1523,9 +1401,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.io.pipelines\\4.7.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.io.pipelines\\4.7.1"
     },
     {
       "Package": {
@@ -1533,9 +1411,9 @@
         "Version": "6.1.7601.17515"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.management.automation\\6.1.7601.17515\\lib\\net45\\System.Management.Automation.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.management.automation\\6.1.7601.17515\\lib\\net45\\System.Management.Automation.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.management.automation\\6.1.7601.17515"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.management.automation\\6.1.7601.17515"
     },
     {
       "Package": {
@@ -1543,9 +1421,9 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.memory\\4.5.4"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.memory\\4.5.4"
     },
     {
       "Package": {
@@ -1553,9 +1431,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
     },
     {
       "Package": {
@@ -1563,9 +1441,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
     },
     {
       "Package": {
@@ -1573,9 +1451,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\lib\\net461\\System.Text.Encodings.Web.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\lib\\net461\\System.Text.Encodings.Web.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.encodings.web\\4.7.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.encodings.web\\4.7.1"
     },
     {
       "Package": {
@@ -1583,9 +1461,9 @@
         "Version": "4.7.2"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.json\\4.7.2\\lib\\net461\\System.Text.Json.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.json\\4.7.2\\lib\\net461\\System.Text.Json.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.text.json\\4.7.2"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.text.json\\4.7.2"
     },
     {
       "Package": {
@@ -1593,9 +1471,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.channels\\4.7.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.channels\\4.7.1"
     },
     {
       "Package": {
@@ -1603,9 +1481,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
@@ -1613,9 +1491,9 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
     },
     {
       "Package": {
@@ -1623,9 +1501,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\system.valuetuple\\4.5.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\system.valuetuple\\4.5.0"
     },
     {
       "Package": {
@@ -1633,22 +1511,9 @@
         "Version": "21.4.23.2412"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath\\21.4.23.2412\\lib\\net45\\UiPath.Interop.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath\\21.4.23.2412\\lib\\net45\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath\\21.4.23.2412"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.11.0-alpha.1551134"
-      },
-      "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134\\lib\\net461\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134\\lib\\net461\\UiPath.Excel.dll"
-      ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.excel.activities\\2.11.0-alpha.1551134"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath\\21.4.23.2412"
     },
     {
       "Package": {
@@ -1656,12 +1521,12 @@
         "Version": "1.10.3-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview"
     },
     {
       "Package": {
@@ -1669,11 +1534,11 @@
         "Version": "3.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Core.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities\\3.0.0\\lib\\net461\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.activities\\3.0.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.activities\\3.0.0"
     },
     {
       "Package": {
@@ -1681,9 +1546,9 @@
         "Version": "2.7.3"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.ocr.contracts\\2.7.3"
     },
     {
       "Package": {
@@ -1691,9 +1556,9 @@
         "Version": "21.4.0"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.platform\\21.4.0\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.platform\\21.4.0\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.platform\\21.4.0"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.platform\\21.4.0"
     },
     {
       "Package": {
@@ -1701,11 +1566,11 @@
         "Version": "21.4.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.system.activities\\21.4.0-preview"
     },
     {
       "Package": {
@@ -1713,9 +1578,9 @@
         "Version": "1.3.18"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.telemetry.client\\1.3.18\\lib\\net461\\TelemetryClient.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.telemetry.client\\1.3.18\\lib\\net461\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.telemetry.client\\1.3.18"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.telemetry.client\\1.3.18"
     },
     {
       "Package": {
@@ -1723,14 +1588,14 @@
         "Version": "1.3.1-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Orchestrator.Client.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.RulesLibrary.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Web.Client.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Orchestrator.Client.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Testing.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview\\lib\\net461\\UiPath.Web.Client.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.testing.activities\\1.3.1-preview"
     },
     {
       "Package": {
@@ -1738,19 +1603,19 @@
         "Version": "21.4.1-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Package.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomation.Activities.Package.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.1-preview"
     },
     {
       "Package": {
@@ -1758,14 +1623,14 @@
         "Version": "3.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\uipath.vision\\3.0.1"
+      "Path": "C:\\Users\\ts-admin\\.nuget\\packages\\uipath.vision\\3.0.1"
     }
   ]
 }
