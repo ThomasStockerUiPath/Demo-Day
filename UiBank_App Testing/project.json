@@ -40,6 +40,26 @@
         "editingStatus": "InProgress",
         "testCaseId": "fff86768-d27a-4391-8eab-832733ec487d",
         "fileName": "UiBank Testing\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "de5b8e0a-bb85-49b6-a250-236ec455d286",
+        "fileName": "ASQ Demo Content\\Demo Test Manager Integration\\UiBank Web Application\\WebApp - TC01 - User Login - straight trough.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22ff928e-e1b9-455d-9d5f-cafbba2790e5",
+        "fileName": "ASQ Demo Content\\Demo Test Manager Integration\\UiBank Web Application\\WebApp - TC02 - User Login - negative.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6fcb00ae-016e-4cd6-b903-a78c5af42783",
+        "fileName": "ASQ Demo Content\\Demo Test Manager Integration\\Admin App\\AdminApp - TC01 - User Registration - straight trough.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8862b455-649b-4ac6-a9ca-3a5137f11085",
+        "fileName": "ASQ Demo Content\\Demo Test Manager Integration\\LoanApplication - TC01 - Apply for Loan via API - straight trough.xaml"
       }
     ],
     "modernBehavior": true

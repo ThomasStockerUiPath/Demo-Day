@@ -5,6 +5,6 @@
   "UiPath.CV.Activities.GenericCV.DelayBetweenKeys": "100",
   "UiPath.CV.Activities.CvScope.CVMethod": "ElementDetection|OCR",
   "UiPath.CV.Activities.CvScope.Server": "https://cv.uipath.com",
-  "UiPath.CV.Activities.CvScope.ApiKey": "",
+  "UiPath.CV.Activities.CvScope.ApiKey": "OI+DXIJJrqrXLXAq9InnjNfiBOe6wcWZu9aZc4B1lAnUQgot8YX6gglwpyLUWZJiptYD8SxsM4/42OmjBnUkkw==",
   "UiPath.CV.Activities.CvScope.UseLocalServer": "False"
 }
