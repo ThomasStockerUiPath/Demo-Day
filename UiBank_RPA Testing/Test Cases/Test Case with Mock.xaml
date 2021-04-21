@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="No_Account_Credible" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="862,1461" sap2010:WorkflowViewState.IdRef="No_Account_Credible_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_Case_with_Mock" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="862,867" sap2010:WorkflowViewState.IdRef="Test_Case_with_Mock_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="31">
+    <scg:List x:TypeArguments="x:String" Capacity="27">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -23,19 +23,15 @@
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
       <x:String>System.Runtime.Serialization</x:String>
-      <x:String>UiPath.Testing</x:String>
-      <x:String>System.Reflection</x:String>
-      <x:String>System.Runtime.InteropServices</x:String>
-      <x:String>UiPath.Testing.Activities</x:String>
-      <x:String>System.Activities.DynamicUpdate</x:String>
-      <x:String>UiPath.Shared.Activities</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>UiPath.Testing.Enums</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
       <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="23">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -53,30 +49,20 @@
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
-      <AssemblyReference>System.ValueTuple</AssemblyReference>
-      <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>UiPath.Mail</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Testing</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="No_Account_Credible" sap:VirtualizedContainerService.HintSize="618,1391" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Test_Case_with_Mock" sap:VirtualizedContainerService.HintSize="418,797" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Boolean" Default="False" Name="loand_granted" />
       <Variable x:TypeArguments="x:String" Name="givenName" />
       <Variable x:TypeArguments="x:String" Name="lastName" />
-      <Variable x:TypeArguments="x:String" Name="username" />
+      <Variable x:TypeArguments="x:String" Name="u" />
+      <Variable x:TypeArguments="x:String" Name="userName" />
       <Variable x:TypeArguments="x:String" Name="email" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -84,7 +70,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,338" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="376,338" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -92,7 +78,7 @@
       </sap:WorkflowViewStateService.ViewState>
       <utat:GivenName DisplayName="Given Name" GivenNameResult="[givenName]" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="GivenName_1" />
       <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="LastName_1" LastNameResult="[lastName]" />
-      <utat:RandomString Case="LowerCase" DisplayName="username" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="RandomString_1" Length="10" Output="[username]" />
+      <utat:RandomString Case="LowerCase" DisplayName="username" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="RandomString_1" Length="10" Output="[userName]" />
       <Assign DisplayName="email" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
@@ -102,19 +88,19 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="576,204" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="376,204" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Loan Processing workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Loan Processing.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Loan Processing_mock workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Mocks/Loan Processing_mock.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="username">
-            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="username" />
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="userName" />
           </InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="password">
-            <Literal x:TypeArguments="x:String">Miller</Literal>
+            <Literal x:TypeArguments="x:String">Jones</Literal>
           </InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="loanAmount">
             <Literal x:TypeArguments="x:String">50000</Literal>
@@ -132,7 +118,7 @@
             <Literal x:TypeArguments="x:Boolean" />
           </InArgument>
           <InArgument x:TypeArguments="x:Boolean" x:Key="isCredible">
-            <Literal x:TypeArguments="x:Boolean" />
+            <Literal x:TypeArguments="x:Boolean" Value="True" />
           </InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="firstName">
             <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="givenName" />
@@ -149,49 +135,12 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="576,299" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="376,83" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[loand_granted = False]" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
-      <ui:CloseApplication DisplayName="Close Application 'page tab  UiBank'" sap:VirtualizedContainerService.HintSize="534,106" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
-        <ui:CloseApplication.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ba728a36-7d9c-40b6-aafc-77acdfaf12a4" InformativeScreenshot="2467ba036c5aab17a2460478645f58e5" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiBank - Google Chrome' /&gt;&lt;ctrl name='UiBank - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='UiBank' role='page tab' /&gt;">
-            <ui:Target.TimeoutMS>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
-            <ui:Target.WaitForReady>
-              <InArgument x:TypeArguments="ui:WaitForReady" />
-            </ui:Target.WaitForReady>
-          </ui:Target>
-        </ui:CloseApplication.Target>
-      </ui:CloseApplication>
-    </Sequence>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,338" sap2010:WorkflowViewState.IdRef="Sequence_6">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="givenName" />
-        <Variable x:TypeArguments="x:String" Name="lastName" />
-        <Variable x:TypeArguments="x:String" Name="username" />
-        <Variable x:TypeArguments="x:String" Name="email" />
-      </Sequence.Variables>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <utat:GivenName DisplayName="Given Name" GivenNameResult="[givenName]" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="GivenName_2" />
-      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="LastName_2" LastNameResult="[lastName]" />
-      <utat:RandomString Case="LowerCase" DisplayName="username" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="RandomString_2" Length="10" Output="[username]" />
-      <Assign DisplayName="email" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[givenName &amp; "@" &amp; lastName &amp; ".com"]</InArgument>
-        </Assign.Value>
-      </Assign>
     </Sequence>
   </Sequence>
 </Activity>

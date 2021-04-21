@@ -41,37 +41,37 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "5233225b-c5dc-44bc-a63f-7c28173074ec",
-        "fileName": "Folder\\DispatcherTest.xaml"
+        "fileName": "RE-framework Test Cases\\DispatcherTest.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "bcc02de5-fea2-4edc-88a1-715e0c925d8b",
-        "fileName": "Folder\\GeneralTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\GeneralTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "85c6dd9b-3b7f-4fb4-8a0e-f81a88f04f1a",
-        "fileName": "Folder\\GetTransactionDataTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\GetTransactionDataTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "d8d6dc68-5639-49ee-b919-a55a147182d0",
-        "fileName": "Folder\\InitAllApplicationsTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\InitAllApplicationsTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "553df1d1-a80d-421a-9eae-f8a9388fb5fe",
-        "fileName": "Folder\\InitAllSettingsTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\InitAllSettingsTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "3ceeb365-18c8-4093-92d9-2afec4824002",
-        "fileName": "Folder\\MainTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\MainTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "4dc3e188-095a-46b6-947c-9947b6d2fc9e",
-        "fileName": "Folder\\ProcessTestCase.xaml"
+        "fileName": "RE-framework Test Cases\\ProcessTestCase.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -96,13 +96,27 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "7daca05c-fab0-4509-aeff-15b4b17f6a15",
-        "fileName": "Loan Processing Test Case.xaml"
+        "fileName": "Test Cases\\Loan Processing Test Case.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c979a149-ba80-4917-bf61-991340ee8e2b",
+        "fileName": "Test Cases\\Test Case with Mock.xaml"
       }
     ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5c1d834b-251a-481b-bf66-781ed0900873",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
