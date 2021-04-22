@@ -14,6 +14,27 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
+      "AvalonEdit/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/_._": {}
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "Castle.Core/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
       "ClosedXML/0.87.1": {
         "type": "package",
         "dependencies": {
@@ -46,6 +67,18 @@
         },
         "runtime": {
           "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
         }
       },
       "Google.Apis/1.43.0": {
@@ -136,6 +169,18 @@
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
         }
       },
+      "LiteDB/4.1.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/LiteDB.dll": {}
+        }
+      },
       "MailKit/2.10.0": {
         "type": "package",
         "dependencies": {
@@ -168,6 +213,55 @@
         },
         "runtime": {
           "lib/net45/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
         }
       },
       "Microsoft.AspNetCore.Connections.Abstractions/3.1.6": {
@@ -462,6 +556,40 @@
           "lib/net45/Microsoft.Identity.Client.dll": {}
         }
       },
+      "Microsoft.Owin/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -553,6 +681,15 @@
           "lib/net45/NPOI.dll": {}
         }
       },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
       "Portable.BouncyCastle/1.8.8": {
         "type": "package",
         "compile": {
@@ -560,6 +697,18 @@
         },
         "runtime": {
           "lib/net40/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
         }
       },
       "RestSharp/106.11.7": {
@@ -572,6 +721,33 @@
         },
         "runtime": {
           "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -1079,6 +1255,117 @@
             "locale": "zh-CN"
           },
           "lib/net461/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.MobileAutomation.Activities/21.4.1-preview": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Castle.Core": "4.3.1",
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "LiteDB": "4.1.4",
+          "Microsoft.AspNet.WebApi.OwinSelfHost": "5.2.7",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Core": "7.2.0.1422",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "System.IO.Abstractions": "3.0.10",
+          "UiPath": "[21.4.23.2412]",
+          "UiPath.OCR.Contracts": "2.7.3",
+          "UiPath.Platform": "21.4.0",
+          "UiPath.Telemetry.Client": "1.3.18",
+          "UiPath.Vision": "3.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Activities",
+          "System.Activities.Presentation",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Windows.Forms",
+          "System.Xaml"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Appium.Net.dll": {},
+          "lib/net461/MapControl.WPF.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Activities.Design.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Activities.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Runtime.dll": {},
+          "lib/net461/UiPath.MobileAutomation.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.MobileAutomation.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.MobileAutomation.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.MobileAutomation.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.MobileAutomation.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.MobileAutomation.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.MobileAutomation.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.MobileAutomation.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.MobileAutomation.resources.dll": {
             "locale": "zh-CN"
           }
         }
@@ -1747,6 +2034,27 @@
           "lib/net461/AutoMapper.dll": {}
         }
       },
+      "AvalonEdit/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/_._": {}
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "Castle.Core/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
       "ClosedXML/0.87.1": {
         "type": "package",
         "dependencies": {
@@ -1779,6 +2087,18 @@
         },
         "runtime": {
           "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
         }
       },
       "Google.Apis/1.43.0": {
@@ -1869,6 +2189,18 @@
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
         }
       },
+      "LiteDB/4.1.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/LiteDB.dll": {}
+        }
+      },
       "MailKit/2.10.0": {
         "type": "package",
         "dependencies": {
@@ -1901,6 +2233,55 @@
         },
         "runtime": {
           "lib/net45/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
         }
       },
       "Microsoft.AspNetCore.Connections.Abstractions/3.1.6": {
@@ -2195,6 +2576,40 @@
           "lib/net45/Microsoft.Identity.Client.dll": {}
         }
       },
+      "Microsoft.Owin/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.21": {
         "type": "package",
         "dependencies": {
@@ -2286,6 +2701,15 @@
           "lib/net45/NPOI.dll": {}
         }
       },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
       "Portable.BouncyCastle/1.8.8": {
         "type": "package",
         "compile": {
@@ -2293,6 +2717,18 @@
         },
         "runtime": {
           "lib/net40/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
         }
       },
       "RestSharp/106.11.7": {
@@ -2305,6 +2741,33 @@
         },
         "runtime": {
           "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -2812,6 +3275,117 @@
             "locale": "zh-CN"
           },
           "lib/net461/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.MobileAutomation.Activities/21.4.1-preview": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Castle.Core": "4.3.1",
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "LiteDB": "4.1.4",
+          "Microsoft.AspNet.WebApi.OwinSelfHost": "5.2.7",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Core": "7.2.0.1422",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "System.IO.Abstractions": "3.0.10",
+          "UiPath": "[21.4.23.2412]",
+          "UiPath.OCR.Contracts": "2.7.3",
+          "UiPath.Platform": "21.4.0",
+          "UiPath.Telemetry.Client": "1.3.18",
+          "UiPath.Vision": "3.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Activities",
+          "System.Activities.Presentation",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Windows.Forms",
+          "System.Xaml"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Appium.Net.dll": {},
+          "lib/net461/MapControl.WPF.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Activities.Design.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Activities.dll": {},
+          "lib/net461/UiPath.MobileAutomation.Runtime.dll": {},
+          "lib/net461/UiPath.MobileAutomation.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.MobileAutomation.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.MobileAutomation.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.MobileAutomation.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.MobileAutomation.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.MobileAutomation.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.MobileAutomation.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.MobileAutomation.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.MobileAutomation.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.MobileAutomation.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.MobileAutomation.resources.dll": {
             "locale": "zh-CN"
           }
         }
@@ -3486,6 +4060,46 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
+    "AvalonEdit/5.0.3": {
+      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
+      "type": "package",
+      "path": "avalonedit/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonedit.5.0.3.nupkg.sha512",
+        "avalonedit.nuspec",
+        "lib/Net35/ICSharpCode.AvalonEdit.dll",
+        "lib/Net35/ICSharpCode.AvalonEdit.xml",
+        "lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "lib/Net40/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "Castle.Core/4.3.1": {
+      "sha512": "8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
+      "type": "package",
+      "path": "castle.core/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle.core.4.3.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40/Castle.Core.dll",
+        "lib/net40/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/netstandard1.3/Castle.Core.dll",
+        "lib/netstandard1.3/Castle.Core.xml",
+        "lib/netstandard1.5/Castle.Core.dll",
+        "lib/netstandard1.5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
     "ClosedXML/0.87.1": {
       "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
       "type": "package",
@@ -3532,6 +4146,21 @@
         "documentformat.openxml.2.5.0.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
       ]
     },
     "Google.Apis/1.43.0": {
@@ -3685,6 +4314,25 @@
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
       ]
     },
+    "LiteDB/4.1.4": {
+      "sha512": "g4g9JlHzRBZl+Gd2UbiRdszZ7t8wozU2wX7+5xY5uE79tmcgcDhha+ubAP84G1VLbwQmhBGCzRfIx+epLmJciQ==",
+      "type": "package",
+      "path": "litedb/4.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/LiteDB.dll",
+        "lib/net35/LiteDB.xml",
+        "lib/net40/LiteDB.dll",
+        "lib/net40/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.4.1.4.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
     "MailKit/2.10.0": {
       "sha512": "+MuVBWstHANt4iescbL0zzOZX+OllALJQf+uDdIPsCx+mE3LsNthpJv/8em93VzGoFev1WGLMJfLjCBreg8STg==",
       "type": "package",
@@ -3733,6 +4381,61 @@
         "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.xml",
         "microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
         "microsoft.aspnet.signalr.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+      "sha512": "Zb/qw8TyMgQi3CfmIWRmfOh89LozKzOJT6EwnY1D1aUjBCms8WXfvrRusc44hEODD7KUPBJLOEJLCx1yT4vMTg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.owin/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.Owin.dll",
+        "lib/net45/System.Web.Http.Owin.xml",
+        "microsoft.aspnet.webapi.owin.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.owin.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+      "sha512": "3Q4dY/LxrsLXgvepAtMGQAW15mjakd+Qx0PMsX/7QOt5BwuHToTmXqzGBKJXv1WHs4hJu+pcx3oSJgBQin1TKw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.owinselfhost/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.webapi.owinselfhost.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.owinselfhost.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Connections.Abstractions/3.1.6": {
@@ -4188,6 +4891,51 @@
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
       ]
     },
+    "Microsoft.Owin/2.0.2": {
+      "sha512": "WVBkCUzmzuBJbOFSfonVLcErTaj0w0NLTwAFR6NB8K6L4099NdvtSBO29JlLQ+Dzkkr5tgvXdcb++mEijBlhpg==",
+      "type": "package",
+      "path": "microsoft.owin/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.XML",
+        "lib/net40/Microsoft.Owin.dll",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.2.0.2.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/2.0.2": {
+      "sha512": "FvjlLadWzpKE2fZeHoa/d1krcVQ7U5/+D+HC3KL+v+jYyvFsFIobtROX0bTgqWkFYdhS3+AWveck63m4LE6SuA==",
+      "type": "package",
+      "path": "microsoft.owin.host.httplistener/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.xml",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "microsoft.owin.host.httplistener.2.0.2.nupkg.sha512",
+        "microsoft.owin.host.httplistener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/2.0.2": {
+      "sha512": "FH94pnDTejmN+VicQEKYl6J6L4wMSlDYY61Yykhsc7ruJVUIP2wrts67vkyalbHcqaGNCdpYsChd7IOpXUcDzQ==",
+      "type": "package",
+      "path": "microsoft.owin.hosting/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Hosting.XML",
+        "lib/net40/Microsoft.Owin.Hosting.dll",
+        "lib/net45/Microsoft.Owin.Hosting.XML",
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "microsoft.owin.hosting.2.0.2.nupkg.sha512",
+        "microsoft.owin.hosting.nuspec"
+      ]
+    },
     "Microsoft.Rest.ClientRuntime/2.3.21": {
       "sha512": "KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
       "type": "package",
@@ -4332,6 +5080,18 @@
         "npoi.nuspec"
       ]
     },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    },
     "Portable.BouncyCastle/1.8.8": {
       "sha512": "1rxdf8NfyAxLlqIEciCl/yNhmz1YiLkmp6rrF8p3/NVmyHHzPWLx8djtDvSAwhPLg64BXvsRcM3+5bP1HAUdYg==",
       "type": "package",
@@ -4345,6 +5105,26 @@
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
         "portable.bouncycastle.1.8.8.nupkg.sha512",
         "portable.bouncycastle.nuspec"
+      ]
+    },
+    "Prism.Core/7.2.0.1422": {
+      "sha512": "U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "type": "package",
+      "path": "prism.core/7.2.0.1422",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netcoreapp3.0/Prism.dll",
+        "lib/netcoreapp3.0/Prism.pdb",
+        "lib/netcoreapp3.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism.core.7.2.0.1422.nupkg.sha512",
+        "prism.core.nuspec"
       ]
     },
     "RestSharp/106.11.7": {
@@ -4361,6 +5141,44 @@
         "restsharp.106.11.7.nupkg.sha512",
         "restsharp.nuspec",
         "restsharp.png"
+      ]
+    },
+    "Selenium.Support/3.141.0": {
+      "sha512": "F4sxMCXGyqWtbw5qsniJRgza2UsBnslHwFgNA2p7hPxvJhqg73lyXu/ZscJ7FSfRvq3eJrosysv92+4sZ3vWsg==",
+      "type": "package",
+      "path": "selenium.support/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.141.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
       ]
     },
     "SharpZipLib/1.2.0": {
@@ -5216,6 +6034,139 @@
         "uipath.mail.activities.nuspec"
       ]
     },
+    "UiPath.MobileAutomation.Activities/21.4.1-preview": {
+      "sha512": "WzS5MFGuGVdqUlO6w9daGwbDjapzUqiRl/Dbn9IyyESVn5hK+6B6lHw/Otj989QqXMD262NIh13ghPkOPmjtzw==",
+      "type": "package",
+      "path": "uipath.mobileautomation.activities/21.4.1-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Appium.Net.dll",
+        "build/Castle.Core.dll",
+        "build/ControlzEx.dll",
+        "build/GongSolutions.WPF.DragDrop.dll",
+        "build/ICSharpCode.AvalonEdit.dll",
+        "build/LiteDB.dll",
+        "build/MapControl.WPF.dll",
+        "build/MaterialDesignColors.dll",
+        "build/MaterialDesignExtensions.dll",
+        "build/MaterialDesignThemes.Wpf.dll",
+        "build/MathConverter.dll",
+        "build/Microsoft.AI.ServerTelemetryChannel.dll",
+        "build/Microsoft.ApplicationInsights.dll",
+        "build/Microsoft.Owin.Host.HttpListener.dll",
+        "build/Microsoft.Owin.Hosting.dll",
+        "build/Microsoft.Owin.dll",
+        "build/Microsoft.Xaml.Behaviors.dll",
+        "build/NLog.config",
+        "build/NLog.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/Owin.dll",
+        "build/Prism.dll",
+        "build/SeleniumExtras.PageObjects.dll",
+        "build/System.IO.Abstractions.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/System.ValueTuple.dll",
+        "build/System.Web.Http.Owin.dll",
+        "build/System.Web.Http.dll",
+        "build/TelemetryClient.Exporter.ApplicationInsights.dll",
+        "build/TelemetryClient.dll",
+        "build/Themes/placeholder.png",
+        "build/UiPath.MobileAutomation.DesignTime.dll",
+        "build/UiPath.MobileAutomation.DesignTime.dll.config",
+        "build/UiPath.MobileAutomation.DeviceInteraction.exe",
+        "build/UiPath.MobileAutomation.DeviceInteraction.exe.config",
+        "build/UiPath.MobileAutomation.Runtime.dll",
+        "build/UiPath.MobileAutomation.Runtime.dll.config",
+        "build/UiPath.MobileAutomation.dll",
+        "build/UiPath.MobileAutomation.dll.config",
+        "build/UiPath.targets",
+        "build/WebDriver.Support.dll",
+        "build/WebDriver.dll",
+        "build/ZedGraph.XML",
+        "build/ZedGraph.dll",
+        "build/ar-DZ/MaterialDesignExtensions.resources.dll",
+        "build/cs-CZ/MaterialDesignExtensions.resources.dll",
+        "build/cs/MaterialDesignExtensions.resources.dll",
+        "build/de/MaterialDesignExtensions.resources.dll",
+        "build/de/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/de/UiPath.MobileAutomation.resources.dll",
+        "build/de/ZedGraph.resources.dll",
+        "build/es-MX/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/es-MX/UiPath.MobileAutomation.resources.dll",
+        "build/es/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/es/UiPath.MobileAutomation.resources.dll",
+        "build/es/ZedGraph.resources.dll",
+        "build/fr-FR/MaterialDesignExtensions.resources.dll",
+        "build/fr/MaterialDesignExtensions.resources.dll",
+        "build/fr/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/fr/UiPath.MobileAutomation.resources.dll",
+        "build/fr/ZedGraph.resources.dll",
+        "build/hu/ZedGraph.resources.dll",
+        "build/it/ZedGraph.resources.dll",
+        "build/ja/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/ja/UiPath.MobileAutomation.resources.dll",
+        "build/ja/ZedGraph.resources.dll",
+        "build/ko/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/ko/UiPath.MobileAutomation.resources.dll",
+        "build/pt-BR/MaterialDesignExtensions.resources.dll",
+        "build/pt-BR/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/pt-BR/UiPath.MobileAutomation.resources.dll",
+        "build/pt/MaterialDesignExtensions.resources.dll",
+        "build/pt/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/pt/UiPath.MobileAutomation.resources.dll",
+        "build/pt/ZedGraph.resources.dll",
+        "build/ru-ru/MaterialDesignExtensions.resources.dll",
+        "build/ru/MaterialDesignExtensions.resources.dll",
+        "build/ru/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/ru/UiPath.MobileAutomation.resources.dll",
+        "build/ru/ZedGraph.resources.dll",
+        "build/sk/ZedGraph.resources.dll",
+        "build/sv/ZedGraph.resources.dll",
+        "build/tr/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/tr/UiPath.MobileAutomation.resources.dll",
+        "build/tr/ZedGraph.resources.dll",
+        "build/uz-Latn-UZ/MaterialDesignExtensions.resources.dll",
+        "build/zh-CN/UiPath.MobileAutomation.DesignTime.resources.dll",
+        "build/zh-CN/UiPath.MobileAutomation.resources.dll",
+        "build/zh-CN/ZedGraph.resources.dll",
+        "build/zh-tw/ZedGraph.resources.dll",
+        "content/Resources/AnchorToolTip1.png",
+        "content/Resources/AnchorToolTip2.png",
+        "content/Resources/AnchorToolTip3.png",
+        "lib/net461/Appium.Net.dll",
+        "lib/net461/MapControl.WPF.dll",
+        "lib/net461/UiPath.MobileAutomation.Activities.Design.dll",
+        "lib/net461/UiPath.MobileAutomation.Activities.dll",
+        "lib/net461/UiPath.MobileAutomation.Runtime.dll",
+        "lib/net461/UiPath.MobileAutomation.dll",
+        "lib/net461/de/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/es-MX/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/es/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/fr/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/ja/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/ko/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/pt-BR/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/pt/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/ru/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/tr/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.MobileAutomation.resources.dll",
+        "lib/net461/zh-CN/UiPath.MobileAutomation.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.MobileAutomation.resources.dll",
+        "uipath.mobileautomation.activities.21.4.1-preview.nupkg.sha512",
+        "uipath.mobileautomation.activities.nuspec"
+      ]
+    },
     "UiPath.OCR.Activities/3.0.0": {
       "sha512": "KoWL90IrWNJ5V+oK9fO0KwmQp/Tw9DItw8PAItmxc1AwEflglhSXh8JFuBKyCOtxEybT+ZemyK7xBPS/hlCl7Q==",
       "type": "package",
@@ -5631,6 +6582,7 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "UiBank_Library >= 1.0.1 <= 1.0.1",
+      "UiPath.MobileAutomation.Activities >= 21.4.1-preview <= 21.4.1-preview",
       "UiPath.System.Activities >= 21.4.0-preview <= 21.4.0-preview",
       "UiPath.Testing.Activities >= 1.3.1-preview <= 1.3.1-preview",
       "UiPath.UIAutomation.Activities >= 21.4.1-preview <= 21.4.1-preview"
@@ -5654,6 +6606,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.0.1, 1.0.1]"
+          },
+          "UiPath.MobileAutomation.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[21.4.1-preview, 21.4.1-preview]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",

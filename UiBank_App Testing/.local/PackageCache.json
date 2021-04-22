@@ -2,6 +2,114 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiBank_Library",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_13427635.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_23288440.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_27541955.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_63386889.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath/21.4.23.2412\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Package.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library\\1.0.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "21.4.0-preview"
       },
@@ -115,103 +223,38 @@
     },
     {
       "Package": {
-        "Id": "UiBank_Library",
-        "Version": "1.0.1"
+        "Id": "UiPath.MobileAutomation.Activities",
+        "Version": "21.4.1-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\mailkit/2.10.0\\lib/net46/MailKit.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.visualstudio.ole.interop/16.7.30328.74\\lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\castle.core/4.3.1\\lib/net45/Castle.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\dotnetseleniumextras.pageobjects/3.11.0\\lib/net45/SeleniumExtras.PageObjects.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\litedb/4.1.4\\lib/net40/LiteDB.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.client/5.2.7\\lib/net45/System.Net.Http.Formatting.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.core/5.2.7\\lib/net45/System.Web.Http.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.owin/5.2.7\\lib/net45/System.Web.Http.Owin.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin/2.0.2\\lib/net45/Microsoft.Owin.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.host.httplistener/2.0.2\\lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.hosting/2.0.2\\lib/net45/Microsoft.Owin.Hosting.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\owin/1.0.0\\lib/net40/Owin.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\prism.core/7.2.0.1422\\lib/net45/Prism.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.support/3.141.0\\lib/net45/WebDriver.Support.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.webdriver/3.141.0\\lib/net45/WebDriver.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_13427635.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_23288440.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_27541955.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library/1.0.1\\lib/net45/UiBank_Library_Expressions_63386889.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath/21.4.23.2412\\lib/net45/UiPath.Interop.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities/2.10.3-preview\\lib/net461/UiPath.Excel.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.Activities.Package.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities/1.10.3-preview\\lib/net461/UiPath.Mail.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.activities/3.0.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/Appium.Net.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/MapControl.WPF.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/UiPath.MobileAutomation.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/UiPath.MobileAutomation.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/UiPath.MobileAutomation.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities/21.4.1-preview\\lib/net461/UiPath.MobileAutomation.Runtime.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.ocr.contracts/2.7.3\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.system.activities/21.4.0-preview\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomation.Activities.Package.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.uiautomation.activities/21.4.1-preview\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Core.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.GoogleCloud.dll",
@@ -219,7 +262,7 @@
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uibank_library\\1.0.1"
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview"
     }
   ],
   "Conflicts": [],
@@ -227,6 +270,16 @@
     "AutoMapper": {
       "Id": "AutoMapper",
       "Version": "9.0.0",
+      "Dependencies": []
+    },
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "Castle.Core": {
+      "Id": "Castle.Core",
+      "Version": "4.3.1",
       "Dependencies": []
     },
     "ClosedXML": {
@@ -257,6 +310,16 @@
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
       "Dependencies": []
+    },
+    "DotNetSeleniumExtras.PageObjects": {
+      "Id": "DotNetSeleniumExtras.PageObjects",
+      "Version": "3.11.0",
+      "Dependencies": [
+        {
+          "Item1": "Selenium.WebDriver",
+          "Item2": "[3.10.0, )"
+        }
+      ]
     },
     "Google.Apis": {
       "Id": "Google.Apis",
@@ -338,6 +401,11 @@
         }
       ]
     },
+    "LiteDB": {
+      "Id": "LiteDB",
+      "Version": "4.1.4",
+      "Dependencies": []
+    },
     "MailKit": {
       "Id": "MailKit",
       "Version": "2.10.0",
@@ -355,6 +423,62 @@
         {
           "Item1": "Newtonsoft.Json",
           "Item2": "[6.0.4, )"
+        }
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client": {
+      "Id": "Microsoft.AspNet.WebApi.Client",
+      "Version": "5.2.7",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.4, )"
+        }
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core": {
+      "Id": "Microsoft.AspNet.WebApi.Core",
+      "Version": "5.2.7",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNet.WebApi.Client",
+          "Item2": "[5.2.7, )"
+        }
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Owin": {
+      "Id": "Microsoft.AspNet.WebApi.Owin",
+      "Version": "5.2.7",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNet.WebApi.Core",
+          "Item2": "[5.2.7, 5.3.0)"
+        },
+        {
+          "Item1": "Microsoft.Owin",
+          "Item2": "[2.0.2, )"
+        },
+        {
+          "Item1": "Owin",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.AspNet.WebApi.OwinSelfHost": {
+      "Id": "Microsoft.AspNet.WebApi.OwinSelfHost",
+      "Version": "5.2.7",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNet.WebApi.Owin",
+          "Item2": "[5.2.7, 5.3.0)"
+        },
+        {
+          "Item1": "Microsoft.Owin.Hosting",
+          "Item2": "[2.0.2, )"
+        },
+        {
+          "Item1": "Microsoft.Owin.Host.HttpListener",
+          "Item2": "[2.0.2, )"
         }
       ]
     },
@@ -632,6 +756,35 @@
       "Version": "4.14.0",
       "Dependencies": []
     },
+    "Microsoft.Owin": {
+      "Id": "Microsoft.Owin",
+      "Version": "2.0.2",
+      "Dependencies": [
+        {
+          "Item1": "Owin",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener": {
+      "Id": "Microsoft.Owin.Host.HttpListener",
+      "Version": "2.0.2",
+      "Dependencies": []
+    },
+    "Microsoft.Owin.Hosting": {
+      "Id": "Microsoft.Owin.Hosting",
+      "Version": "2.0.2",
+      "Dependencies": [
+        {
+          "Item1": "Owin",
+          "Item2": "[1.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Owin",
+          "Item2": "[2.0.2, )"
+        }
+      ]
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -685,14 +838,44 @@
         }
       ]
     },
+    "Owin": {
+      "Id": "Owin",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
       "Version": "1.8.8",
       "Dependencies": []
     },
+    "Prism.Core": {
+      "Id": "Prism.Core",
+      "Version": "7.2.0.1422",
+      "Dependencies": [
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
     "RestSharp": {
       "Id": "RestSharp",
       "Version": "106.11.7",
+      "Dependencies": []
+    },
+    "Selenium.Support": {
+      "Id": "Selenium.Support",
+      "Version": "3.141.0",
+      "Dependencies": [
+        {
+          "Item1": "Selenium.WebDriver",
+          "Item2": "[3.141.0, )"
+        }
+      ]
+    },
+    "Selenium.WebDriver": {
+      "Id": "Selenium.WebDriver",
+      "Version": "3.141.0",
       "Dependencies": []
     },
     "SharpZipLib": {
@@ -948,6 +1131,72 @@
         }
       ]
     },
+    "UiPath.MobileAutomation.Activities": {
+      "Id": "UiPath.MobileAutomation.Activities",
+      "Version": "21.4.1-preview",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Castle.Core",
+          "Item2": "[4.3.1, )"
+        },
+        {
+          "Item1": "DotNetSeleniumExtras.PageObjects",
+          "Item2": "[3.11.0, )"
+        },
+        {
+          "Item1": "LiteDB",
+          "Item2": "[4.1.4, )"
+        },
+        {
+          "Item1": "Microsoft.AspNet.WebApi.OwinSelfHost",
+          "Item2": "[5.2.7, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        },
+        {
+          "Item1": "Prism.Core",
+          "Item2": "[7.2.0.1422, )"
+        },
+        {
+          "Item1": "Selenium.Support",
+          "Item2": "[3.141.0, )"
+        },
+        {
+          "Item1": "Selenium.WebDriver",
+          "Item2": "[3.141.0, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "UiPath",
+          "Item2": "[21.4.23.2412, 21.4.23.2412]"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.3, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[21.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[3.0.1, )"
+        }
+      ]
+    },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
       "Version": "3.0.0",
@@ -1133,6 +1382,26 @@
     },
     {
       "Package": {
+        "Id": "AvalonEdit",
+        "Version": "5.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\avalonedit\\5.0.3"
+    },
+    {
+      "Package": {
+        "Id": "Castle.Core",
+        "Version": "4.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\castle.core\\4.3.1\\lib\\net45\\Castle.Core.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\castle.core\\4.3.1"
+    },
+    {
+      "Package": {
         "Id": "ClosedXML",
         "Version": "0.87.1"
       },
@@ -1163,12 +1432,22 @@
     },
     {
       "Package": {
+        "Id": "DotNetSeleniumExtras.PageObjects",
+        "Version": "3.11.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\lib\\net45\\SeleniumExtras.PageObjects.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0"
+    },
+    {
+      "Package": {
         "Id": "Google.Apis",
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll"
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis\\1.43.0"
     },
@@ -1178,8 +1457,8 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll"
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\google.apis.auth\\1.43.0"
     },
@@ -1225,6 +1504,16 @@
     },
     {
       "Package": {
+        "Id": "LiteDB",
+        "Version": "4.1.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\litedb\\4.1.4\\lib\\net40\\LiteDB.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\litedb\\4.1.4"
+    },
+    {
+      "Package": {
         "Id": "MailKit",
         "Version": "2.10.0"
       },
@@ -1242,6 +1531,44 @@
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNet.WebApi.Client",
+        "Version": "5.2.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\lib\\net45\\System.Net.Http.Formatting.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNet.WebApi.Core",
+        "Version": "5.2.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\lib\\net45\\System.Web.Http.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNet.WebApi.Owin",
+        "Version": "5.2.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.owin\\5.2.7\\lib\\net45\\System.Web.Http.Owin.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.owin\\5.2.7"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNet.WebApi.OwinSelfHost",
+        "Version": "5.2.7"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.aspnet.webapi.owinselfhost\\5.2.7"
     },
     {
       "Package": {
@@ -1466,6 +1793,36 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Owin",
+        "Version": "2.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin\\2.0.2\\lib\\net45\\Microsoft.Owin.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin\\2.0.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Owin.Host.HttpListener",
+        "Version": "2.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.host.httplistener\\2.0.2\\lib\\net45\\Microsoft.Owin.Host.HttpListener.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.host.httplistener\\2.0.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Owin.Hosting",
+        "Version": "2.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.hosting\\2.0.2\\lib\\net45\\Microsoft.Owin.Hosting.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\microsoft.owin.hosting\\2.0.2"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Rest.ClientRuntime",
         "Version": "2.3.21"
       },
@@ -1520,12 +1877,22 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "Owin",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\owin\\1.0.0\\lib\\net40\\Owin.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\owin\\1.0.0"
     },
     {
       "Package": {
@@ -1539,6 +1906,16 @@
     },
     {
       "Package": {
+        "Id": "Prism.Core",
+        "Version": "7.2.0.1422"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\prism.core\\7.2.0.1422\\lib\\net45\\Prism.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\prism.core\\7.2.0.1422"
+    },
+    {
+      "Package": {
         "Id": "RestSharp",
         "Version": "106.11.7"
       },
@@ -1546,6 +1923,26 @@
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\restsharp\\106.11.7\\lib\\net452\\RestSharp.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\restsharp\\106.11.7"
+    },
+    {
+      "Package": {
+        "Id": "Selenium.Support",
+        "Version": "3.141.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.support\\3.141.0\\lib\\net45\\WebDriver.Support.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.support\\3.141.0"
+    },
+    {
+      "Package": {
+        "Id": "Selenium.WebDriver",
+        "Version": "3.141.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.webdriver\\3.141.0\\lib\\net45\\WebDriver.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\selenium.webdriver\\3.141.0"
     },
     {
       "Package": {
@@ -1738,8 +2135,8 @@
       },
       "Assemblies": [
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.excel.activities\\2.10.3-preview"
@@ -1751,11 +2148,26 @@
       },
       "Assemblies": [
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.Package.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.Activities.dll",
         "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview\\lib\\net461\\UiPath.Mail.dll"
       ],
       "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mail.activities\\1.10.3-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MobileAutomation.Activities",
+        "Version": "21.4.1-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\Appium.Net.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\MapControl.WPF.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.MobileAutomation.Activities.Design.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.MobileAutomation.Activities.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.MobileAutomation.dll",
+        "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview\\lib\\net461\\UiPath.MobileAutomation.Runtime.dll"
+      ],
+      "Path": "C:\\Users\\Christian Mayer\\.nuget\\packages\\uipath.mobileautomation.activities\\21.4.1-preview"
     },
     {
       "Package": {

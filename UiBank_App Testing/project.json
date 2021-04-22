@@ -4,6 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiBank_Library": "[1.0.1]",
+    "UiPath.MobileAutomation.Activities": "[21.4.1-preview]",
     "UiPath.System.Activities": "[21.4.0-preview]",
     "UiPath.Testing.Activities": "[1.3.1-preview]",
     "UiPath.UIAutomation.Activities": "[21.4.1-preview]"
@@ -12,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.5.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.72777135",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -61,6 +62,53 @@
         "editingStatus": "InProgress",
         "testCaseId": "e3ed3ef5-eb16-4c2f-8dd4-739d0dbc7aaa",
         "fileName": "ASQ Demo Content\\01 - TM Integration\\UiBank Web Application\\Web App - TC01 - User Login - straight trough.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6520dea5-aadc-4f88-9740-f659da0b6a83",
+        "dataVariationFilePath": ".variations\\UiBankTesting_ApplyForLoan_DDT_MainUseCases.json",
+        "fileName": "ASQ Demo Content\\02 - Automation\\02.a - Unified Target\\Apply for loan (with Test Data Variations).xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f31fee1f-76ba-424a-a5b9-e7f325bcc138",
+        "dataVariationFilePath": ".variations\\UiBankTesting_ApplyForLoan_DDT_MainUseCases_1.json",
+        "fileName": "ASQ Demo Content\\02 - Automation\\02.a - Unified Target\\Apply for loan (only 2 Variations).xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "050b9596-4c0b-4e7a-9354-df07ee6570dd",
+        "fileName": "ASQ Demo Content\\03 - Assets\\Test UiBank Web Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0f68d160-240d-4d1c-a6fc-d34cb4374941",
+        "fileName": "ASQ Demo Content\\02 - Automation\\02.b - Mobile Device Automation\\Mobile Automation - The App - Login Popup Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d5a1a42c-e6ee-4aec-872f-28e3165e8229",
+        "fileName": "ASQ Demo Content\\02 - Automation\\02.b - Mobile Device Automation\\Mobile Automation - Apply for Loan - Android.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cc3169fe-ee83-4c8b-8592-97362eb91f92",
+        "fileName": "ASQ Demo Content\\02 - Automation\\02.b - Mobile Device Automation\\Mobile Automation - Apply for Loan - iOS.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a78a11f8-c3f8-49f5-bddf-1c965e6aea7e",
+        "fileName": "ASQ Demo Content\\04 - Configuration Parameters\\Demo Test Configuration on Orchestrator.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5c72b429-672b-4dc0-a623-b9342d02aa05",
+        "fileName": "ASQ Demo Content\\Continuous Integration Test Cases\\Verify a correct number.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "87ab0239-7269-44d8-be76-1db05ffdd7f3",
+        "fileName": "ASQ Demo Content\\Continuous Integration Test Cases\\Verify an incorrect number.xaml"
       }
     ],
     "modernBehavior": true
