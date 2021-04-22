@@ -1,1 +1,0 @@
-[{"VariationId":"1","VariationName":"Straight Through","MailAddress":"testMail123@uibank.com","LoanAmount":"30000","LoanTerm":"5","CurrentIncome":"30000","Age":"34","ExpectedLoanRate":"8"},{"VariationId":"8","VariationName":"Wrong Loan Rate","MailAddress":"testMail123@uibank.com","LoanAmount":"30000","LoanTerm":"1","CurrentIncome":"30000","Age":"34","ExpectedLoanRate":"12"}]
