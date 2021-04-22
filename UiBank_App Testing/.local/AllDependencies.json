@@ -6589,15 +6589,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Christian Mayer\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas Stocker\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiBank_App Testing",
       "projectName": "UiBank_App Testing",
-      "projectPath": "C:\\Data\\UiPath\\ASQ-Demo\\UiBank_App Testing\\.local",
-      "packagesPath": "C:\\Users\\Christian Mayer\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\UiPath\\ASQ-Demo\\UiBank_App Testing\\.local"
+      "projectPath": "C:\\Users\\Thomas Stocker\\Documents\\UiPath\\Demo-Day\\UiBank_App Testing\\.local",
+      "packagesPath": "C:\\Users\\Thomas Stocker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas Stocker\\Documents\\UiPath\\Demo-Day\\UiBank_App Testing\\.local"
     },
     "frameworks": {
       "net461": {
@@ -6628,7 +6628,7 @@
             "version": "[21.4.1-preview, 21.4.1-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Christian Mayer\\AppData\\Local\\UiPath\\app-21.5.0-alpha0355\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Thomas Stocker\\AppData\\Local\\UiPath\\app-21.5.0-alpha0355\\runtime.json"
       }
     }
   }
