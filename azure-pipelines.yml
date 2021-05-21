@@ -13,7 +13,7 @@ steps:
   inputs:
     testTarget: 'TestProject'
     orchestratorConnection: 'Orchestrator'
-    testProjectPath: 'project.json'
+    testProjectPath: 'UiBank_RPA Testing/project.json'
     folderName: 'Demo Day/RPA Testing'
     testReportDestination: '$(Build.ArtifactStagingDirectory)\Output\result.xml'
 
