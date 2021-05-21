@@ -1,0 +1,21 @@
+trigger:
+- master
+
+pool:
+
+  vmImage: "vs2017-win2016"
+
+steps:
+
+- task: UiPathInstallPlatform-preview@2
+
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'Orchestrator'
+    testProjectPath: 'project.json'
+    folderName: 'Demo Day/RPA Testing'
+    testReportDestination: '$(Build.ArtifactStagingDirectory)\Output\result.xml'
+
+
+
