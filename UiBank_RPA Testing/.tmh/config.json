@@ -5,10 +5,5 @@
     "3df1ea39-d066-4cdd-be05-eaeb94ccb5cb": "477b2a21-73ea-4f7f-bd36-0b4266a39119",
     "44bdeff6-edbb-41ef-b611-901d0216e5c3": "26f4fede-5ca0-40eb-bca8-0b4266a39784"
   },
-  "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/",
-  "defaultProject": {
-    "id": "d8567f23-3cba-428c-9251-0b426c3e8dd1",
-    "name": "Demo Day RPA Testing",
-    "key": "DDRPA"
-  }
+  "testManagerBasePath": "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com:8443/"
 }

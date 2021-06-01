@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.5.0.0",
-  "projectVersion": "1.0.73161496",
+  "projectVersion": "1.0.73306325",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -25,7 +25,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -102,6 +103,56 @@
         "editingStatus": "InProgress",
         "testCaseId": "c979a149-ba80-4917-bf61-991340ee8e2b",
         "fileName": "Test Cases\\Test Case with Mock.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "adc0db2d-fdb9-4e2f-877e-0daddd43eca1",
+        "fileName": "Activity Coverage\\Test Cases\\Has_Account_Loan_Granted.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "76b39fc9-576b-4a16-a1bc-5b6aad1d9425",
+        "fileName": "Activity Coverage\\Test Cases\\Has_Account_Loan_Rejected.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b2f6aec5-2a01-43ae-bbce-a3e35368ff55",
+        "fileName": "Activity Coverage\\Test Cases\\No_Account_Loan_Granted.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7cac0af3-7a7d-4c0b-ad93-620e4c9bd4a1",
+        "fileName": "Activity Coverage\\Test Cases\\No_Account_Loan_Rejected.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "62f52257-e33d-45b0-81c9-0dc1f60fc59c",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d2a55977-091b-4f53-a984-4d7d694b2de6",
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fdfbeac8-e444-49fa-b858-a31b9fc74819",
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c06b305c-fbc5-4b85-a0e4-8d7fba5511e7",
+        "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ffbe7e15-6859-42b9-9837-263413cb6af7",
+        "fileName": "TestCase4.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1a20f534-b87b-466f-aa4a-2b6d48fa4f5a",
+        "fileName": "Activity Coverage\\Workflows\\TestCase.xaml"
       }
     ],
     "modernBehavior": false
@@ -118,5 +169,6 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Legacy",
+  "coverageMergeWorkflowPath": ""
 }
