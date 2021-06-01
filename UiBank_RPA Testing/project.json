@@ -123,6 +123,12 @@
         "editingStatus": "Publishable",
         "testCaseId": "7cac0af3-7a7d-4c0b-ad93-620e4c9bd4a1",
         "fileName": "Activity Coverage\\Test Cases\\No_Account_Loan_Rejected.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "97df5f4e-881d-4754-949a-2093d8dba8e3",
+        "dataVariationFilePath": ".variations\\Customers_Customers.json",
+        "fileName": "TestCase.xaml"
       }
     ],
     "modernBehavior": false
