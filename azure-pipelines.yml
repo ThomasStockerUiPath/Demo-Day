@@ -11,7 +11,8 @@ steps:
 
 - task: UiPathTest@2
   inputs:
-    testTarget: 'TestProject'
+    testTarget: 'TestSet'
+    testSet: 'Loan Processing'
     orchestratorConnection: 'Orchestrator'
     testProjectPath: 'UiBank_RPA Testing/project.json'
     folderName: 'Demo Day/RPA Testing'
@@ -31,4 +32,5 @@ steps:
     orchestratorConnection: 'Orchestrator'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Demo Day/RPA Testing'
+
 
