@@ -1,19 +1,15 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+
+  vmImage: "vs2017-win2016"
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
-- script: |
+ - name: Prepare Environment 
+   run: |
+
     New-Item -Path "C:\\" -ItemType "directory" -Name "uipathcli";
 Invoke-WebRequest "https://www.myget.org/F/uipath-dev/api/v2/package/UiPath.CLI/1.0.7758.25166" -OutFile "C:\\uipathcli\\cli.zip";
 Expand-Archive -LiteralPath "C:\\uipathcli\\cli.Zip" -DestinationPath "C:\\uipathcli";
@@ -22,8 +18,7 @@ Invoke-WebRequest "https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main
 Invoke-WebRequest "https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathDeploy.ps1"  -OutFile "C:\\scripts\\UiPathDeploy.ps1";
 Invoke-WebRequest "https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathJobRun.ps1"  -OutFile "C:\\scripts\\UiPathJobRun.ps1";
 Invoke-WebRequest "https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathRunTest.ps1"  -OutFile "C:\\scripts\\UiPathRunTest.ps1";
-
 C:\scripts\UiPathRunTest.ps1 "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com/" "default"  -testset "Apply for Loan" -orchestrator_user admin -orchestrator_pass Ht9183$rtf!Mn45 -folder_organization_unit "Demo Day/Testing" 
 
-  displayName: 'Run Tests'
+
 
