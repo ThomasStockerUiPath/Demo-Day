@@ -5,30 +5,6 @@ pool:
 
   vmImage: "vs2017-win2016"
 
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      #Download uipath cli and DevOps scripts 
-      #1)create folder. 
-      #2)download uipcli zip file. 
-      #3)unzip uipcli.zip 
-      #4) create scripts folder 
-      #5) download 4 powershell scripts and place them in scripts folder
-      - name: Prepare Environment 
-        run: |
-          New-Item -Path "C:\\" -ItemType "directory" -Name "uipathcli";
-          Invoke-WebRequest https://www.myget.org/F/uipath-dev/api/v2/package/UiPath.CLI/1.0.7758.25166 -OutFile "C:\\uipathcli\\cli.zip";
-          Expand-Archive -LiteralPath "C:\\uipathcli\\cli.Zip" -DestinationPath "C:\\uipathcli";
-          New-Item -Path "C:\\" -ItemType "directory" -Name "scripts";
-          Invoke-WebRequest https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathJobRun.ps1 -OutFile "C:\\scripts\\UiPathJobRun.ps1";
-          Invoke-WebRequest https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathPack.ps1 -OutFile "C:\\scripts\\UiPathPack.ps1";
-          Invoke-WebRequest https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathDeploy.ps1 -OutFile "C:\\scripts\\UiPathDeploy.ps1";
-          Invoke-WebRequest https://github.com/SE-Abdullah/UiPath-DevOps-Scripts/raw/main/scripts/UiPathRunTest.ps1 -OutFile "C:\\scripts\\UiPathRunTest.ps1";
-      
-
-
-C:\scripts\UiPathRunTest.ps1 "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com/" "default"  -testset "Apply for Loan" -orchestrator_user admin -orchestrator_pass Ht9183$rtf!Mn45 -folder_organization_unit "Demo Day/Testing" 
-
+steps:
 
 
