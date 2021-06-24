@@ -22,5 +22,5 @@ steps:
                   
             
             
-            C:\scripts\UiPathRunTest.ps1 "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com/" "default"  -testset "Apply for Loan" -orchestrator_user admin -orchestrator_pass Ht9183$rtf!Mn45 -folder_organization_unit "Demo Day"
+            C:\scripts\UiPathRunTest.ps1 "https://uipath-ts-demo-01.westeurope.cloudapp.azure.com/" "default"  -testset "Apply for Loan" -orchestrator_user ThomasStocker -orchestrator_pass Paltental1 -folder_organization_unit "Demo Day"
      
