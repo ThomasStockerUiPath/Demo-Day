@@ -9,12 +9,16 @@ steps:
 
 - task: UiPathInstallPlatform-preview@2
 
-
-
-- task: UiPathTest@2
+- task: UiPathPack@2
   inputs:
-    testTarget: 'TestSet'
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.ArtifactStagingDirectory)'
+    outputType: 'Process'
     orchestratorConnection: 'Cloud Orchestrator'
-    testSet: 'ADO'
-    folderName: 'Modern Folder'
-    testReportDestination: 'output.xml'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+
+- task: UiPathDeploy@2
+  inputs:
+    orchestratorConnection: 'Cloud Orchestrator'
+    packagesPath: ''$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'default'
